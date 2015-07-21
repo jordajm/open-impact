@@ -3,6 +3,7 @@
 //dependencies
 var config = require('./config'),
     express = require('express'),
+    fs = require('fs'),
     cookieParser = require('cookie-parser'),
     bodyParser = require('body-parser'),
     session = require('express-session'),
@@ -91,6 +92,32 @@ app.utility = {};
 app.utility.sendmail = require('./util/sendmail');
 app.utility.slugify = require('./util/slugify');
 app.utility.workflow = require('./util/workflow');
+
+var metricsList = fs.readFileSync('allIrisMetrics.csv').toString().split('\r\n');
+// console.log(metricsList);
+
+var metricsArr = [];
+var metricsListLen = metricsList.length;
+for(var i = 0; i < metricsListLen; i++){
+  var thisMetric = metricsList[i].split(',');
+  metricsArr[i] = {
+    metricId: thisMetric[0],
+    metricSection: thisMetric[1],
+    metricSubsection: thisMetric[2],
+    metricSector: thisMetric[3],
+    metricName: thisMetric[4],
+    definition: thisMetric[5],
+    metricType: thisMetric[6],
+    metricQuantityType: thisMetric[7],
+    reportingFormat: thisMetric[8]
+  };
+}
+
+app.db.models.Metric.create(metricsArr, function(err) {
+  if (err) {
+    console.log("error importing Iris Metric. err = ", err);
+  }
+});
 
 //listen up
 app.server.listen(app.config.port, function(){

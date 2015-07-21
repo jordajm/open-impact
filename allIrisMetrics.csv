@@ -1,0 +1,1025 @@
+PI4060,Product Impact,Client Information,Cross-Sector,Client Individuals: Total,Number of unique individuals who were clients of the organization during the reporting period.  ,Metric,Flow,Number of people
+PI8330,Product Impact,Client Information,Cross-Sector,Client Individuals: Female,Number of unique women who were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI3193,Product Impact,Client Information,Cross-Sector,Client Individuals: Poor,Number of unique poor individuals who were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI9835,Product Impact,Client Information,Cross-Sector,Client Individuals: Very Poor,"Number of unique very poor individuals who were clients of the organization during the reporting period.
+",Submetric,Flow,Number of people
+PI7098,Product Impact,Client Information,Cross-Sector,Client Individuals: Low Income,Number of unique low-income individuals who were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI1190,Product Impact,Client Information,Cross-Sector,Client Individuals: Rural,Number of unique individuals in rural areas who were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI6751,Product Impact,Client Information,Cross-Sector,Client Individuals: Urban,Number of unique individuals in urban areas who were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI3960,Product Impact,Client Information,Cross-Sector,Client Individuals: Peri-urban,Number of unique individuals in peri-urban areas who were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI6266,Product Impact,Client Information,Cross-Sector,Client Individuals: Disabilities,Number of unique individuals with disabilities who were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI4237,Product Impact,Client Information,Cross-Sector,Client Individuals: Minorities/Previously Excluded,Number of unique individuals who belong to minority or previously excluded groups and were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI1945,Product Impact,Client Information,Cross-Sector,Client Individuals: Children/Adolescents,Number of unique children and adolescents who were clients of the organization during the reporting period.,Submetric,Flow,Number of people
+PI9327,Product Impact,Client Information,Cross-Sector,Client Individuals: Active,"Number of unique individuals who were active clients of the organization as of the end of the reporting period.
+
+Organizations should footnote the description of the type of clients included in the calculation.",Submetric,Stock,Number of people
+PI8732,Product Impact,Client Information,Cross-Sector,Client Individuals: New,"Number of unique individuals who were first-time clients of the organization during the reporting period.
+
+Organizations should footnote any assumptions or guidelines used when reporting against this metric.",Submetric,Flow,Number of people
+PI6372,Product Impact,Client Information,Agriculture,Client Individuals: Smallholder,Number of unique smallholder farmer individuals who were clients during the reporting period.,Submetric,Flow,Number of individuals or households
+PI2822,Product Impact,Client Information,Cross-Sector,Client Individuals: Provided New Access,"Number of client individuals who were served by the organization and provided access  during the reporting period  to products/services they were unable to access prior to the reporting period.
+
+Organizations should reference New Access to Water  New Access to Energy  New Access to Education  New Access to Finance or New Access to Healthcare in the glossary for more clarification
+
+Organizations should footnote the assumptions used in reporting against this metric.",Submetric,Flow,Number of people
+PI1807,Product Impact,Client Information,Cross-Sector,Client Individuals: No Direct Payment,Number of client individuals who received products/services during the reporting period where no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed.,Submetric,Flow,Number of people
+PI9622,Product Impact,Client Information,Cross-Sector,Client Individuals: Receiving Free Products/Services,Number of client individuals who received free products/services from the organization during the reporting period.,Submetric,Flow,Number of people
+PI7954,Product Impact,Client Information,Cross-Sector,Client Households: Total,Number of unique households that were clients of the organization during the reporting period.  ,Metric,Flow,Number of households
+PI1726,Product Impact,Client Information,Cross-Sector,Client Households: Poor,Number of unique poor households that were clients of the organization during the reporting period.,Submetric,Flow,Number of households
+PI6705,Product Impact,Client Information,Cross-Sector,Client Households: Very Poor,"Number of unique very poor households that were clients of the organization during the reporting period.
+",Submetric,Flow,Number of households
+PI7318,Product Impact,Client Information,Cross-Sector,Client Households: Low Income,Number of unique low-income households that were clients of the organization during the reporting period.,Submetric,Flow,Number of households
+PI8163,Product Impact,Client Information,Cross-Sector,Client Households: Rural,Number of unique households in rural areas that were clients of the organization during the reporting period.,Submetric,Flow,Number of households
+PI1417,Product Impact,Client Information,Cross-Sector,Client Households: Urban,Number of unique households in urban areas that were clients of the organization during the reporting period.,Submetric,Flow,Number of households
+PI7952,Product Impact,Client Information,Cross-Sector,Client Households: Peri-urban,Number of unique households in peri-urban areas that were clients of the organization during the reporting period.,Submetric,Flow,Number of households
+PI3268,Product Impact,Client Information,Cross-Sector,Client Households: Minorities/Previously Excluded,Number of unique households with at least one household member who belongs to minority or previously excluded groups  and were clients of the organization during the reporting period.,Submetric,Flow,Number of households
+PI6991,Product Impact,Client Information,Cross-Sector,Client Households: New,"Number of unique households who were first-time clients of the organization during the reporting period.
+
+Organizations should footnote any assumptions or guidelines used when reporting against this metric.",Submetric,Flow,Number of households
+PI2845,Product Impact,Client Information,Cross-Sector,Client Households: Provided New Access,Number of unique households that were clients of the organization and provided access  during the reporting period  to products/services they were unable to access prior to the reporting period.,Submetric,Flow,Number of households
+PI9652,Product Impact,Client Information,Cross-Sector,Client Organizations: Total,Number of enterprises that were clients of the organization during the reporting period.,Metric,Flow,Number of organizations
+PI6894,Product Impact,Client Information,Cross-Sector,Client Organizations: New,Number of enterprises that were first-time clients of the organization during the reporting period.,Submetric,Flow,Number of organizations
+PI2575,Product Impact,Client Information,Cross-Sector,Client Organizations: Provided New Access,"Number of enterprise clients that were served by the organization and provided access  during the reporting period  to products/services they were unable to access prior to the reporting period.
+
+Organizations should reference New Access to Water  New Access to Energy  New Access to Education  New Access to Finance or New Access to Healthcare in the glossary for more clarification
+
+Organizations should footnote the assumptions used in reporting against this metric.",Submetric,Flow,Number of organizations
+PI8952,Product Impact,Client Information,Cross-Sector,Client Organizations: No Direct Payment,Number of enterprise clients that received products/services during the reporting period where no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed.,Submetric,Flow,Number of organizations
+PI6050,Product Impact,Client Information,Cross-Sector,Client Organizations: Receiving Free Services,Number of enterprise clients that received free products/services from the organization during the reporting period.,Submetric,Flow,Number of organizations
+PI9713,Product Impact,Client Information,Cross-Sector,Client Organizations: Microenterprises,Number of microenterprises that were clients of the organization during the reporting period.,Submetric,Flow,Number of organizations
+PI4940,Product Impact,Client Information,Cross-Sector,Client Organizations: SME,Number of small-to-medium enterprises (SMEs) that were clients of the organization during the reporting period.,Submetric,Flow,Number of organizations
+PI5184,Product Impact,Quantity & Reach,Cross-Sector,Client Transactions,Number of sales or client transactions during the reporting period. ,Metric,Flow,Number of sales transactions
+PI9319,Product Impact,Client Information,Cross-Sector,Client Retention Rate,Retention rate of the organization's clients for the reporting period.,Metric,Flow,Decimal
+PI1748,Product Impact,Client Information,Cross-Sector,Client Savings Premium,"Price discount/savings obtained  by the consumer (client) when purchasing a product/service from the organization during the reporting period. This is a ratio of the average price paid by the consumer to the organization compared to the average price that would otherwise be paid for a similar good in the local market.
+
+Organizations should footnote assumptions used in calculating this metric.
+",Metric,Flow,Decimal
+PI2476,Product Impact,Client Information,Cross-Sector,Communities Served,"Number of communities where the organization's products/services were available during the reporting period. 
+
+Organizations should footnote definition of community and assumptions and guidelines on how this metric was calculated. ",Metric,Flow,Number of communities
+OI8869,Operational Impact,Employees,Cross-Sector,Permanent Employees: Total,Number of people employed by the organization as of the end of the reporting period. This is the sum of all paid full-time and part-time employees. ,Metric,Stock,Number of people
+OI2444,Operational Impact,Employees,Cross-Sector,Permanent Employees: Female,Number of females employed by the organization as of the end of the reporting period. This is the sum of all paid full-time and part-time female employees. ,Submetric,Stock,Number of people
+OI8266,Operational Impact,Employees,Cross-Sector,Permanent Employees: Low Income Areas,Number of people employed by the organization that reside in low income areas  as of the end of the reporting period. This is the sum of all paid full-time and part-time employees residing in low-income areas. ,Submetric,Flow,Number of people
+OI4038,Operational Impact,Employees,Cross-Sector,Permanent Employees: Disabilities,Number of people with disabilities employed by the organization as of the end of the reporting period. This is the sum of all paid full-time and part-time employees with disabilities. ,Submetric,Stock,Number of people
+OI3236,Operational Impact,Employees,Cross-Sector,Permanent Employees: Minority/Previously Excluded,Number of people employed by the organization who belong to minority or previously excluded groups as of the end of the reporting period. This is the sum of all paid full-time and part-time minority or previously excluded employees. ,Submetric,Stock,Number of people
+OI3160,Operational Impact,Employees,Cross-Sector,Full-time Employees: Total,"Number of paid full-time employees at the organization as of the end of the reporting period. 
+",Metric,Stock,Number of people
+OI6213,Operational Impact,Employees,Cross-Sector,Full-time Employees: Female ,Number of paid full-time female employees at the organization as of the end of the reporting period.,Submetric,Stock,Number of people
+OI2003,Operational Impact,Employees,Cross-Sector,Full-time Employees: Disabilities ,Number of paid full-time employees at the organization with disabilities as of the end of the reporting period.,Submetric,Stock,Number of people
+OI8147,Operational Impact,Employees,Cross-Sector,Full-time Employees: Minorities/Previously Excluded,Number of paid full-time employees at the organization who belong to minority or previously excluded groups as of the end of the reporting period.,Submetric,Stock,Number of people
+OI8251,Operational Impact,Employees,Cross-Sector,Full-time Employees: Managers,"Number of paid full-time management employees at the organization as of the end of the reporting period.
+",Submetric,Stock,Number of people
+OI1571,Operational Impact,Employees,Cross-Sector,Full-time Employees: Female Managers,"Number of paid full-time female management employees at the organization as of the end of the reporting period.
+",Submetric,Stock,Number of people
+OI8292,Operational Impact,Employees,Cross-Sector,Full-time Employees: Managers with Disabilities,"Number of paid full-time management employees with disabilities at the organization as of the end of the reporting period.
+",Submetric,Stock,Number of people
+OI3140,Operational Impact,Employees,Cross-Sector,Full-time Employees: Minorities/Previously Excluded Managers,Number of paid full-time management employees at the organization who belong to minority or previously excluded groups  as of the end of the reporting period.,Submetric,Stock,Number of people
+OI8864,Operational Impact,Employees,Cross-Sector,Part-time Employees: Total,Number of paid part-time employees at the organization as of the end of the reporting period.,Metric,Stock,Number of people
+OI8838,Operational Impact,Employees,Cross-Sector,Part-time Employees: Female,Number of paid female part-time employees at the organization as of the end of the reporting period.,Submetric,Stock,Number of people
+OI4571,Operational Impact,Employees,Cross-Sector,Part-time Employees: Disabilities,Number of paid part-time employees with disabilities at the organization as of the end of the reporting period.,Submetric,Stock,Number of people
+OI6508,Operational Impact,Employees,Cross-Sector,Part-time Employees: Minorities/Previously Excluded,Number of paid part-time employees at the organization who belong to minority or previously excluded groups  as of the end of the reporting period.,Submetric,Stock,Number of people
+OI9028,Operational Impact,Employees,Cross-Sector,Temporary Employees,Number of temporary employees paid by the organization during the reporting period.,Metric,Flow,Number of people
+OI8408,Operational Impact,Employees,Cross-Sector,Temporary Employees Hours Worked,Number of paid hours worked by temporary employees of the organization during the reporting period.,Metric,Flow,Number of hours
+OI4061,Operational Impact,Employees,Cross-Sector,Healthcare Benefits Participants,"Number of full-time employees who received healthcare benefits through the organization's programs during the reporting period.
+
+Organizations should footnote the types of benefits provided  such as health and dental insurance or vision programs.",Metric,Flow,Number of people
+OI3757,Operational Impact,Employees,Cross-Sector,Occupational Injuries,Indicate the number of occupational injuries which affected any full-time  part-time  or temporary employee of the organization during the reporting period.,Metric,Flow,Number of injuries
+OI1166,Operational Impact,Employees,Cross-Sector,Volunteer Hours,Number of hours worked by volunteers who supported the organization during the reporting period.,Metric,Flow,Number of hours
+OI8429,Operational Impact,Employees,Cross-Sector,Community Service Hours Contributed,Number of hours volunteered by full-time and part-time employees of the organization during the reporting period. ,Metric,Flow,Number of hours
+OI4499,Operational Impact,Employees,Cross-Sector,Departing Permanent Employees: Total,Number of full-time and part-time employees departing the organization (for any reason) during the reporting period.,Metric,Flow,Number of people
+OI3653,Operational Impact,Employees,Cross-Sector,Departing Permanent Employees: Full-time,Number of full-time employees departing the organization (for any reason) during the reporting period.,Submetric,Flow,Number of people
+OI8431,Operational Impact,Employees,Cross-Sector,Departing Permanent Employees: Voluntary,Number of full-time and part-time employees departing the organization voluntarily during the reporting period.,Submetric,Flow,Number of people
+OI1638,Operational Impact,Employees,Cross-Sector,Employee Turnover Rate,Ratio of the number of departing permanent (full-time and part-time) employees compared to the average number of permanent (full-time and part-time) employees at the organization during the reporting period. ,Metric,Flow,Decimal
+OI6370,Operational Impact,Employees,Cross-Sector,Employees Dedicated to Social and Environmental Performance,Number of full-time equivalent employees dedicated to managing social and environmental performance during the reporting period.,Metric,Flow,FTEs
+OI9677,Operational Impact,Wages,Cross-Sector,Permanent Employee Wages: Total,Value of wages (including bonuses  excluding benefits) paid to all full-time and part-time employees of the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+OI4559,Operational Impact,Wages,Cross-Sector,Permanent Employee Wages: Female,Value of wages (including bonuses  excluding benefits) paid to all female full-time and part-time employees of the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI7064,Operational Impact,Wages,Cross-Sector,Permanent Employee Wages: Low Income Areas,Value of wages (including bonuses  excluding benefits) paid to all full-time and part-time employees of the organization who live in low income areas during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI1682,Operational Impact,Wages,Cross-Sector,Permanent Employee Wages: Disabilities,Value of wages (including bonuses  excluding benefits) paid to all full-time and part-time employees of the organization with disabilities during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI1084,Operational Impact,Wages,Cross-Sector,Permanent Employee Wages: Minorities/Previously Excluded,Value of wages (including bonuses  excluding benefits) paid to all full-time and part-time employees of the organization who belong to minority or previously excluded groups during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI5887,Operational Impact,Wages,Cross-Sector,Full-time Wages: Total,Value of wages (including bonuses  excluding benefits) paid to all full-time employees of the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+OI8941,Operational Impact,Wages,Cross-Sector,Full-time Wages: Female,Value of wages (including bonuses  excluding benefits) paid to all female full-time employees of the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI1508,Operational Impact,Wages,Cross-Sector,Full-time Wages: Minority/Previously Excluded,Value of wages (including bonuses  excluding benefits) paid to all full-time employees of the organization who belong to minority or previously excluded groups during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI6069,Operational Impact,Wages,Cross-Sector,Full-time Wages: Management ,Value of wages (including bonuses  excluding benefits) paid to all full-time management employees of the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI5247,Operational Impact,Wages,Cross-Sector,Full-time Wages: Female Management ,Value of wages (including bonuses  excluding benefits) paid to all full-time female management employees of the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI3862,Operational Impact,Wages,Cross-Sector,Full-time Wages: Minority/Previously Excluded Management ,Value of wages (including bonuses  excluding benefits) paid to all full-time management employees of the organization who belong to minority or previously excluded groups during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI9948,Operational Impact,Wages,Cross-Sector,Part-time Wages: Total,Value of wages (including bonuses  excluding benefits) paid to all part-time employees of the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+OI8725,Operational Impact,Wages,Cross-Sector,Part-time Wages: Female,Value of wages (including bonuses  excluding benefits) paid to all female part-time employees of the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI9956,Operational Impact,Wages,Cross-Sector,Part-time Wages: Minority/Previously Excluded,Value of wages (including bonuses  excluding benefits) paid to all part-time employees of the organization who belong to minority or previously excluded groups during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+OI4202,Operational Impact,Wages,Cross-Sector,Temporary Employee Wages,Value of wages (including bonuses  excluding benefits) paid to all temporary employees of the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+OI1582,Operational Impact,Wages,Cross-Sector,Wage Equity,Ratio between the wages paid during the reporting period to the highest compensated full-time employee (inclusive of bonus) as compared to the lowest paid full-time employee.,Metric,Flow,Decimal
+OI9767,Operational Impact,Wages,Cross-Sector,Wage Premium,"Wage premium obtained by the employee as a result of working for the organization during the reporting period. This is the additional average wage paid to an employee of the organization compared to the average wage paid for a similar job in a similar industry/sector in the local market during the reporting period.
+
+Organizations should footnote the assumptions used when reporting against this metric.",Metric,Flow,Decimal
+FP5293,Financial Performance,Balance Sheet,Cross-Sector,Total Assets,Value  at the end of the reporting period  of all of the organization's assets.,Metric,Stock,Reporting Currency (OD5990)
+FP9148,Financial Performance,Balance Sheet,Cross-Sector,Fixed Assets,Value  at the end of the reporting period  of the organization's long-term tangible assets that are not expected to be converted into cash in the current or upcoming fiscal year. Sometimes referred to as property  plant  and equipment (PP&E).,Submetric,Stock,Reporting Currency (OD5990)
+FP6926,Financial Performance,Balance Sheet,Cross-Sector,Current Assets,Value  at the end of the reporting period  of the organization's assets that are reasonably expected to be converted into cash within one year in the normal course of business. ,Submetric,Stock,Reporting Currency (OD5990)
+FP4649,Financial Performance,Balance Sheet,Cross-Sector,Financial Assets,Value  at the end of the reporting period  of the organization's non-physical assets such as cash  bank accounts  or other investments.,Submetric,Stock,Reporting Currency (OD5990)
+FP5317,Financial Performance,Balance Sheet,Cross-Sector,Equity or Net Assets,"Value of the residual interest  at the end of the reporting period  in the assets of the organization after deducting all its liabilities. 
+
+Net assets is equivalent to total assets minus total liabilities.",Submetric,Stock,Reporting Currency (OD5990)
+FP8653,Financial Performance,Balance Sheet,Cross-Sector,Retained Earnings,Value of the sum of the organization's profits  cumulative from inception to the end of the reporting period  not paid out as dividends  but retained by the organization to be reinvested in its core business or to pay debt. ,Submetric,Stock,Reporting Currency (OD5990)
+FP2852,Financial Performance,Balance Sheet,Cross-Sector,Accounts Payable,Value  at the end of the reporting period  of all outstanding debts that must be paid by the organization within a given period of time in order to avoid default.,Metric,Stock,Reporting Currency (OD5990)
+FP2213,Financial Performance,Balance Sheet,Cross-Sector,Accounts Receivable,Value  at the end of the reporting period  of the organization's outstanding debts from clients who received goods or services on credit.,Metric,Stock,Reporting Currency (OD5990)
+FP1996,Financial Performance,Balance Sheet,Cross-Sector,Total Liabilities,Value of organization's liabilities at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+FP2269,Financial Performance,Balance Sheet,Cross-Sector,Current Liabilities,Value  at the end of the reporting period  of all liabilities that are expected to be settled within one year in the normal course of business.,Submetric,Stock,Reporting Currency (OD5990)
+FP6094,Financial Performance,Balance Sheet,Cross-Sector,Long Term Financial Liabilities,Value  at the end of the reporting period  of an organization's long term financial liabilities. ,Submetric,Stock,Reporting Currency (OD5990)
+FP6750,Financial Performance,Balance Sheet,Cross-Sector,Loans Payable,Value of the remaining balance  at the end of the reporting period  on all the organization's outstanding debt obligations (both short-term and long-term) carried on the balance sheet.,Metric,Stock,Reporting Currency (OD5990)
+FP7264,Financial Performance,Cash Flow,Cross-Sector,Cash and Cash Equivalents: Period Start ,Value of the organization's cash equivalents at the beginning of the reporting period. ,Metric,Stock,Reporting Currency (OD5990)
+FP6462,Financial Performance,Cash Flow,Cross-Sector,Cash and Cash Equivalents- Period End ,Value of the organizations cash equivalents at the end of the reporting period. ,Metric,Stock,Reporting Currency (OD5990)
+FP3466,Financial Performance,Cash Flow,Cross-Sector,Cash Flow: Net Total,Value of the organization's net cash flow at the end of the reporting period. Net cash flow equals inflows less outflows of cash and cash equivalents from operating  investing  financing  etc. activities.,Metric,Stock,Reporting Currency (OD5990)
+FP4812,Financial Performance,Cash Flow,Cross-Sector,Cash Flow: Operating Activities ,Value of the organization's cash flows for the reporting period related to operating activities. ,Submetric,Flow,Reporting Currency (OD5990)
+FP9703,Financial Performance,Cash Flow,Cross-Sector,Cash Flow: Investing Activities ,Value of the organization's cash flows for the reporting period related to investing activities by the organization. ,Submetric,Flow,Reporting Currency (OD5990)
+FP8244,Financial Performance,Cash Flow,Cross-Sector,Cash Flow: Financing Activities ,Value of the organization's cash flows for the reporting period related to its financing activities. ,Submetric,Flow,Reporting Currency (OD5990)
+FP8293,Financial Performance,Cash Flow,Cross-Sector,New Investment Capital,Value of funds invested in the organization (both loans and investments) during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+FP1301,Financial Performance,Income Statement,Cross-Sector,Net Income,Value of the organization's net profit  calculated as total income minus total expenses  taxes  and cost of goods sold  during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+FP3274,Financial Performance,Income Statement,Cross-Sector,Net Income Before Donations,Value of the organization's net profit before donations  calculated as total income  excluding donations  minus total expenses during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+FP3673,Financial Performance,Income Statement,Cross-Sector,EBIT,"Value of the organization's net income before interest and taxes during the reporting period. 
+
+Earnings Before Interest and Taxes (EBIT).",Metric,Flow,Reporting Currency (OD5990)
+FP1657,Financial Performance,Income Statement,Cross-Sector,EBITDA,"Value of the organization's net income before interest  taxes  depreciation and amortization during the reporting period.
+
+Earnings Before Interest  Taxes  Depreciation and Amortization (EBITDA).",Metric,Flow,Reporting Currency (OD5990)
+FP6510,Financial Performance,Income Statement,Cross-Sector,Total Revenue,Value of all revenue received by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI1775,Financial Performance,Income Statement,Cross-Sector,Sales Revenue,"Value of the revenue from sales of the organization's products/services during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+FP8300,Financial Performance,Income Statement,Cross-Sector,Sales Revenue: Collected Directly,Value of the revenue from sales of the organization's products/services collected from clients directly during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+FP5624,Financial Performance,Income Statement,Cross-Sector,Sales Revenue: Collected from Third Party Payers,Value of the revenue from sales of the organization's products/services collected from public or private payers  during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI7321,Financial Performance,Income Statement,Cross-Sector,Sales Revenue: Certified,Value of the revenue from sales of the organization's certified products during the reporting period. ,Submetric,Flow,Reporting Currency (OD5990)
+PI5920,Financial Performance,Income Statement,Cross-Sector,Sales Revenue: Exports,Value of the revenue from sales of international exports of the product/service during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+FP4849,Financial Performance,Income Statement,Cross-Sector,Non-Operating Revenue,Value of the revenue that is derived from activities not related to the organization's core operations  during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+FP3021,Financial Performance,Income Statement,Cross-Sector,Revenue from Grants and Donations,Value of the revenue that is contributed through grants and donations  during the reporting period. ,Submetric,Flow,Reporting Currency (OD5990)
+FP7629,Financial Performance,Income Statement,Cross-Sector,Gross Profit,Value of the organization's residual profit after incurring the direct costs associated with production/delivery  for the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+FP2321,Financial Performance,Income Statement,Cross-Sector,Total Expenses,Value of all operating expenditures incurred by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+FP9049,Financial Performance,Income Statement,Cross-Sector,Cost of Goods Sold,Value of direct expenditures attributable to the production of the goods sold by the organization during the reporting period. ,Submetric,Flow,Reporting Currency (OD5990)
+FP1001,Financial Performance,Income Statement,Cross-Sector,Operating Expenses,Value of expenditures incurred by the organization as a result of performing its normal business operations  during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+FP9649,Financial Performance,Income Statement,Cross-Sector,Selling  General  and Administration Expenses,Value of all direct and indirect selling expenses and all general and administrative expenses incurred by the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+FP4831,Financial Performance,Income Statement,Cross-Sector,Personnel Expenses,Value of expenditures related to personnel  including wages  benefits  trainings  and payroll taxes incurred by the organization  during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+FP1012,Financial Performance,Income Statement,Cross-Sector,Interest Expenses,Value of expenditures incurred by the organization  during the reporting period  due to interest incurred on all liabilities  including any client deposit accounts held by the organization  borrowings  subordinated debt  and other liabilities.,Submetric,Flow,Reporting Currency (OD5990)
+FP9462,Financial Performance,Income Statement,Cross-Sector,Depreciation and Amortization Expenses,Value of expenses recorded by the organization during the reporting period for depreciation and amortization. ,Submetric,Flow,Reporting Currency (OD5990)
+FP5261,Financial Performance,Income Statement,Cross-Sector,Payments to Government,Value of all transfers to the government made by the organization  during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+FP4761,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Revenue Growth,Growth in value of the organization's revenue from one reporting period to another. ,Metric,Stock,Decimal
+FP4373,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Gross Margin,"Percent of revenue that the organization retains after incurring the direct costs associated with production/delivery of its products/services  for the reporting period.
+",Metric,Stock,Decimal
+FP3297,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Income Growth,Growth in value of the organization's net income from one reporting period to another. ,Metric,Stock,Decimal
+FP7897,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Operating Profit Margin,Value of the proportion of the organization's revenue that is left over after paying for variable costs such as wages  raw materials  etc. during the reporting period.,Metric,Flow,Decimal
+FP6856,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Working Capital,Value of the organization's operating liquidity  at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+FP4326,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Return on Assets (ROA),"Value of an organization's net profit after taxes generated per dollar invested in total assets for the reporting period.  
+
+This is a profitability ratio calculated as net income divided by average total assets. ",Metric,Flow,Decimal
+FP2651,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Return on Equity (ROE),"Value of an organization's net profit generated per dollar of shareholders' equity for the reporting period. 
+
+This is a profitability ratio calculated as net income divided by average total equity or net assets. ",Metric,Flow,Decimal
+FP3774,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Charitable Donations,Value of all financial contributions and in-kind donations of goods and services made by the organization to charities  private foundations  non-profits or non-governmental organizations  during the reporting period.,Metric,Flow,Decimal
+OI6697,Operational Impact,Environmental Performance,Cross-Sector,Energy Conservation,"Amount of energy saved by the organization through energy conservation techniques employed to reduce the amount of energy needed to carry out the same processes or tasks  during the reporting period. 
+
+Organizations should footnote conservation strategies employed and calculation method.",Metric,Flow,Number of kWh
+OI9624,Operational Impact,Environmental Performance,Cross-Sector,Energy Produced On-site: Total,"Amount of on-site energy produced and consumed by the organization during the reporting period.
+",Metric,Flow,Number of kWh
+OI1495,Operational Impact,Environmental Performance,Cross-Sector,Energy Produced On-site: Non-Renewable,Amount of on-site energy produced and consumed by the organization from non-renewable sources such as coal  natural gas  and crude oil derivatives during the reporting period.,Submetric,Flow,Number of kWh
+OI2496,Operational Impact,Environmental Performance,Cross-Sector,Energy Produced On-site: Renewable,Amount of on-site energy produced and consumed by the organization from renewable sources such as solar  wind  geothermal  hydro energy  and biomass during the reporting period.,Submetric,Flow,Number of kWh
+OI8825,Operational Impact,Environmental Performance,Cross-Sector,Energy Purchased: Total,Amount of purchased energy consumed by the organization during the reporting period.,Metric,Flow,Number of kWh
+OI1496,Operational Impact,Environmental Performance,Cross-Sector,Energy Purchased: Non-Renewable,Amount of purchased energy consumed by the organization from non-renewable sources such as coal  nuclear energy  natural gas  and crude oil derivatives during the reporting period.,Submetric,Flow,Number of kWh
+OI3324,Operational Impact,Environmental Performance,Cross-Sector,Energy Purchased: Renewable,Amount of purchased energy consumed by the organization from renewable sources such as solar  wind  geothermal  hydro energy  and biomass during the reporting period.,Submetric,Flow,Number of kWh
+OI1479,Operational Impact,Environmental Performance,Cross-Sector,Greenhouse Gas Emissions: Total,"Amount of greenhouse gases (GHG) emitted through the organization's operations during the reporting period. This should include GHG emissions from direct and indirect sources. 
+
+Organizations should footnote calculations and assumptions.",Metric,Flow,Number of metric tonnes of CO2 equivalent
+OI4112,Operational Impact,Environmental Performance,Cross-Sector,Greenhouse Gas Emissions: Direct,"Amount of greenhouse gases (GHG) emitted from direct emissions sources during the reporting period. 
+
+Organizations should footnote calculations and assumptions.",Submetric,Flow,Number of metric tonnes of CO2 equivalent
+OI9604,Operational Impact,Environmental Performance,Cross-Sector,Greenhouse Gas Emissions: Indirect,"Amount of greenhouse gases (GHG) emitted from indirect emissions sources during the reporting period. 
+
+Organizations should footnote calculations and assumptions.",Submetric,Flow,Number of metric tonnes of CO2 equivalent
+OI4328,Operational Impact,Environmental Performance,Cross-Sector,Recycled Materials,Amount of recycled materials used in the organization's products (including packaging) during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+OI5942,Operational Impact,Environmental Performance,Cross-Sector,Toxic Materials,Amount of toxic materials used in the organization's manufacturing processes during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+OI6192,Operational Impact,Environmental Performance,Cross-Sector,Waste Disposed: Total,Amount of waste disposed by the organization during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+OI9847,Operational Impact,Environmental Performance,Cross-Sector,Waste Disposed: Composted,Amount of waste disposed by the organization through composting during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+OI8357,Operational Impact,Environmental Performance,Cross-Sector,Waste Disposed: Incinerated,Amount of waste disposed by the organization through incineration during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+OI4483,Operational Impact,Environmental Performance,Cross-Sector,Waste Disposed: Landfill,Amount of waste disposed by the organization through landfills during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+OI2535,Operational Impact,Environmental Performance,Cross-Sector,Waste Disposed: Recycled/Reused,Amount of waste disposed by the organization through reuse and recycling during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+OI8843,Operational Impact,Environmental Performance,Cross-Sector,Waste Disposed: Other,Amount of waste disposed by the organization through other means during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+OI6709,Operational Impact,Environmental Performance,Cross-Sector,Waste Produced: Total,Amount of waste created by the organization's operations during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+OI1346,Operational Impact,Environmental Performance,Cross-Sector,Waste Produced: Hazardous Waste ,Amount of hazardous waste created by the organization's operations during the reporting period. ,Submetric,Flow,Unit of Measure (PD1602)
+OI7442,Operational Impact,Environmental Performance,Cross-Sector,Waste Produced: Non-Hazardous Waste ,Amount of non-hazardous waste created by the organization's operations during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+OI7920,Operational Impact,Environmental Performance,Cross-Sector,Waste Reductions,"Amount of waste reductions achieved by the organization during the reporting period through programs for substitution  recycling or recovery. 
+
+Organizations should footnote calculations and assumptions.",Metric,Flow,Unit of Measure (PD1602)
+OI9412,Operational Impact,Environmental Performance,Cross-Sector,Wastewater Treatment,"Amount of wastewater treated by the organization during the reporting period that is derived from its productive processes.
+
+Organizations should footnote calculations and assumptions.",Metric,Flow,Unit of Measure (PD1602)
+OI4015,Operational Impact,Environmental Performance,Cross-Sector,Water Conservation,"Amount of reduced water usage achieved as a result of the organization's water conservation efforts during the reporting period. 
+
+Organizations should footnote conservation strategies employed and calculation method.",Metric,Flow,Unit of Measure (PD1602)
+OI1697,Operational Impact,Environmental Performance,Cross-Sector,Water Use: Total,Amount of water used for the organization's operations during the reporting period  including uses for productive processes such as packaging  manufacturing  and for human consumption.,Metric,Flow,Unit of Measure (PD1602)
+OI3031,Operational Impact,Environmental Performance,Cross-Sector,Water Use: Municipal,Amount of water drawn from municipal water sources for the organization's operations during the reporting period  including uses for productive processes such as packaging  manufacturing  and for human consumption.,Submetric,Flow,Unit of Measure (PD1602)
+OI6721,Operational Impact,Environmental Performance,Cross-Sector,Water Use: Rainwater ,Amount of rainwater used for the organization's operations during the reporting period  including uses for productive processes such as packaging  manufacturing  and for human consumption.,Submetric,Flow,Unit of Measure (PD1602)
+OI1927,Operational Impact,Environmental Performance,Cross-Sector,Water Use: Recycled,Amount of recycled water used for the organization's operations during the reporting period  including uses for productive processes such as packaging  manufacturing  and for human consumption.,Submetric,Flow,Unit of Measure (PD1602)
+OI8828,Operational Impact,Environmental Performance,Cross-Sector,Water Use: Wastewater,Amount of wastewater used for the organization's operations during the reporting period  including uses for productive processes such as packaging  manufacturing  and for human consumption.,Submetric,Flow,Unit of Measure (PD1602)
+OI5929,Operational Impact,Environmental Policies,Cross-Sector,Biodiversity Assessment,"Indicate whether the organization has undertaken any biodiversity-related assessments to evaluate the biological diversity present on the land that is directly or indirectly controlled by the organization.
+
+Organizations should footnote specific assessments undertaken.",Metric,Stock,Yes/No
+OI1254,Operational Impact,Environmental Policies,Cross-Sector,Environmental Management System,"Indicate whether the organization has an environmental management system in place. 
+
+Organizations should footnote the relevant details about their environmental management system.",Metric,Stock,Yes/No
+OI6765,Operational Impact,Environmental Policies,Cross-Sector,Green Building Practices,"Indicate whether the organization employs green building practices. 
+
+Organizations should footnote the specific green building practices employed by the organization. ",Metric,Stock,Yes/No
+OI7365,Operational Impact,Environmental Policies,Cross-Sector,Water Management,"Indicate whether the organization employs management practices for water quality protection.
+
+Organizations should footnote the specific details of their water management practices. ",Metric,Stock,Yes/No
+OI7860,Operational Impact,Environmental Policies,Cross-Sector,Wastewater Treatment Compliance,Indicate whether the organization's practices related to discharge of wastewater comply with local legal requirements.,Metric,Stock,Yes/No
+OI1075,Operational Impact,Governance & Ownership,Cross-Sector,Board of Directors: Total,Number of members of the organization's board of directors or other governing body  as of the end of the reporting period.,Metric,Stock,Number of people
+OI8118,Operational Impact,Governance & Ownership,Cross-Sector,Board of Directors: Female,Number of female members of the organization's board of directors or other governing body  as of the end of the reporting period.,Submetric,Stock,Number of people
+OI6696,Operational Impact,Governance & Ownership,Cross-Sector,Board of Directors: Minority/Previously Excluded,Number of board of directors or other governing body members who belong to minority or previously excluded groups  as of the end of the reporting period. ,Submetric,Stock,Number of people
+OI4070,Operational Impact,Governance & Ownership,Cross-Sector,Board of Directors: Independent,Number of independent board members of the organization's board of directors or governing body  as of the end of the reporting period. ,Submetric,Stock,Number of people
+OI3630,Operational Impact,Governance & Ownership,Cross-Sector,Meeting Frequency of Board of Directors,"Frequency of board of directors or governing body meetings (virtual meetings should be included in this count). Select one: 
+- Annually 
+- Semi-annually 
+- Quarterly 
+- Other ",Metric,Stock,Selection
+OI2840,Operational Impact,Governance & Ownership,Cross-Sector,Female Ownership,Percentage of the organization that is female-owned  as of the end of the reporting period.,Metric,Stock,Decimal
+OI7194,Operational Impact,Governance & Ownership,Cross-Sector,Minority/Previously Excluded Ownership,Percentage of the organization that is owned by individuals who belong to minority or previously excluded groups  as of the end of the reporting period.,Metric,Stock,Decimal
+OI2330,Operational Impact,Governance & Ownership,Cross-Sector,Governance Policies,Indicate whether the organization has written corporate governance policies that have been communicated to stakeholders.,Metric,Stock,Yes/No
+OI1984,Operational Impact,Governance & Ownership,Cross-Sector,Social and Environmental Board Committee,Indicate whether there is a formal board of directors committee dedicated to social and environmental performance.,Metric,Stock,Yes/No
+OI4432,Operational Impact,Social Policies,Cross-Sector,Child Labor Policy,Indicate whether the organization has a written child labor policy in line with International Labour Organization (ILO) standards.,Metric,Stock,Yes/No
+OI5049,Operational Impact,Social Policies,Cross-Sector,Client Feedback,"Indicate whether the organization has a feedback system to solicit client feedback and an established procedure and/or committee to deal with client feedback.
+
+Organizations should footnote the process and frequency by which they obtain client feedback.",Metric,Stock,Yes/No
+OI4753,Operational Impact,Social Policies,Cross-Sector,Client Protection Policy,"Indicate whether the organization has a written policy for client protection with mechanisms to ensure compliance.
+
+Organizations should footnote the relevant details about their client protection policy.",Metric,Stock,Yes/No
+OI4324,Operational Impact,Social Policies,Cross-Sector,Community Service,Indicate whether the organization has a written community service policy.,Metric,Stock,Yes/No
+OI2596,Operational Impact,Social Policies,Cross-Sector,Conflict of Interest Policy,Indicate whether the organization has a written policy to monitor and disclose any potential conflicts of interest between the company  board members  owners  or material investors.,Metric,Stock,Yes/No
+OI3601,Operational Impact,Social Policies,Cross-Sector,Employee Feedback,"Indicate whether the organization has a system in place to solicit feedback from employees. 
+
+Organizations should footnote the relevant details about the employee feedback system. ",Metric,Stock,Yes/No
+OI5102,Operational Impact,Social Policies,Cross-Sector,Employee Policy Documentation,"Indicate which employee policy documentation is provided by the organization to its employees. Select all that apply:
+- Employee handbook
+- Discrimination/harassment policy
+- Code of ethics",Metric,Stock,Selection
+OI2742,Operational Impact,Social Policies,Cross-Sector,Employment Benefits,"Indicate which benefits are provided to full-time employees. Select all that apply: 
+- Health Insurance
+- Dental Insurance
+- Disability Coverage
+- Life Insurance
+- Maternity/Paternity Leave
+- Retirement Provisions
+- Stock Ownership
+- Other (footnote)",Metric,Stock,Selection
+OI4884,Operational Impact,Social Policies,Cross-Sector,Fair Career Advancement Practices ,"Indicate whether the organization has a written policy to support progression/promotion of employees fairly and equally. 
+
+Organizations should footnote the personal characteristics explicitly referenced in the organization's fair career advancement policies. ",Metric,Stock,Yes/No
+OI3819,Operational Impact,Social Policies,Cross-Sector,Fair Compensation Practices,"Indicate whether the organization has a written policy to compensate employees fairly and equally. 
+
+Organizations should footnote the personal characteristics explicitly referenced in the organization's fair compensation policies. ",Metric,Stock,Yes/No
+OI9478,Operational Impact,Social Policies,Cross-Sector,Fair Dismissal Policy,Indicate whether the organization has a written policy and practice of ensuring fair dismissal of employees according to International Labor Organization (ILO) standards.,Metric,Stock,Yes/No
+OI1150,Operational Impact,Social Policies,Cross-Sector,Fair Hiring/Recruiting Practices,"Indicate whether the organization has a written employment policy to recruit employees fairly and equally. 
+
+Organizations should footnote the characteristics explicitly referenced in the organization's employment policies. ",Metric,Stock,Yes/No
+OI5164,Operational Impact,Social Policies,Cross-Sector,Financial Statement Review,Indicate whether it is the organization's policy to produce financial statements that are verified annually by a certified independent auditor.,Metric,Stock,Yes/No
+OI1503,Operational Impact,Social Policies,Cross-Sector,Healthcare Benefits Premium Covered,Percentage of a full-time employee's healthcare premium that is covered. This should be based on benefits available to full-time employees as of the end of the reporting period. ,Metric,Stock,Decimal
+OI9379,Operational Impact,Social Policies,Cross-Sector,Local Compliance,Indicate whether the organization has been found to be out of compliance with any local labor  tax  or environmental regulations during the reporting period.,Metric,Flow,Yes/No
+OI8113,Operational Impact,Social Policies,Cross-Sector,Market Research on Clients,"Indicate whether the organization uses market research to identify the needs of clients and potential clients.
+
+Organizations should footnote the process and frequency with which they conduct market research.",Metric,Stock,Yes/No
+OI1120,Operational Impact,Social Policies,Cross-Sector,Operational Certifications,List the third-party certifications held by the organization that are related to its business processes and practices and that are valid as of the end of the reporting period.,Metric,Stock,Text
+OI9088,Operational Impact,Social Policies,Cross-Sector,Sexual Harassment Policy,Indicate whether the organization has a written policy and practice to combat sexual harassment of employees in line with internationally-recognized standards.,Metric,Stock,Yes/No
+OI4739,Operational Impact,Social Policies,Cross-Sector,Supplier Evaluation,"Indicate whether the organization considers social and environmental performance when evaluating suppliers.
+
+Organizations should footnote the type of factors taken under consideration.",Metric,Stock,Yes/No
+OI8001,Operational Impact,Social Policies,Cross-Sector,Worker Safety,"Indicate whether the organization has systems and policies in place to monitor  evaluate and ensure worker safety. 
+
+Organizations should footnote details around these systems and policies including information on safety training  protection gear required  testing of equipment  posting of signs  etc. ",Metric,Stock,Yes/No
+OI7390,Operational Impact,Training & Assessment,Cross-Sector,Employee Training Costs: Total,Value of the costs incurred by the organization as a result of training provided to employees (full-time  part-time  or temporary) during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+OI7877,Operational Impact,Training & Assessment,Cross-Sector,Employee Training Hours: Total,"Number of training hours provided for employees (full-time  part-time  or temporary) during the reporting period.
+
+Organizations should footnote the types of training provided  particularly those that lead to recognized certifications.",Metric,Flow,Number of hours
+OI4229,Operational Impact,Training & Assessment,Cross-Sector,Employees Trained: Total,"Number of employees (full-time  part-time  or temporary) who were trained through programs provided by the organization (both internally and externally) during the reporting period.
+
+Organizations should footnote the types of training provided and duration of training  with particular emphasis on those that lead to recognized certifications.",Metric,Flow,Number of people
+OD4108,Organizational Description,Impact Objectives,Cross-Sector,Environmental Impact Objectives,"Environmental impact objectives pursued by the organization. Select all that apply: 
+- Biodiversity conservation
+- Energy and fuel efficiency
+- Natural resources conservation
+- Pollution prevention & waste management
+- Sustainable energy
+- Sustainable land use
+- Water resources management",Metric,Stock,Selection
+OD6247,Organizational Description,Impact Objectives,Cross-Sector,Social Impact Objectives,"Social impact objectives pursued by the organization. Select all that apply:
+- Access to clean water
+- Access to education 
+- Access to energy
+- Access to financial services
+- Access to information
+- Affordable housing
+- Agricultural productivity
+- Capacity-building
+- Community development
+- Conflict resolution
+- Disease-specific prevention and mitigation 
+- Employment generation
+- Equality and empowerment
+- Food security
+- Generate funds for charitable giving
+- Health improvement
+- Human rights protection or expansion
+- Income/productivity growth
+",Metric,Stock,Selection
+OD2735,Organizational Description,Impact Objectives,Cross-Sector,Mission Statement,The mission statement of the organization.,Metric,Stock,Text
+OD8350,Organizational Description,Organizational Information,Cross-Sector,Customer Model,"Customer model. Select all that apply: 
+- Business to Business (B2B)
+- Business to Consumer (B2C)
+- Business to Government (B2G)",Metric,Stock,Selection
+OD2999,Organizational Description,Organizational Information,Cross-Sector,Legal Structure,"Legal structure of the organization. Select one: 
+- Benefit Corporation
+- Co-op
+- Corporation
+- Limited Liability Company
+- Non-Profit/Non-Governmental Organization
+- Partnership
+- Sole-proprietorship
+- Other",Metric,Stock,Selection
+OD6855,Organizational Description,Organizational Information,Cross-Sector,Location of Organization's Headquarters,Address of the organization's legally incorporated headquarters. ,Metric,Stock,Text
+OD1777,Organizational Description,Organizational Information,Cross-Sector,Location of Organization's Operating Facilities,Address of the organization's operating facilities.,Metric,Stock,Text (multiple entries possible)
+OD5828,Organizational Description,Organizational Information,Cross-Sector,Name of Organization,Name of the organization.,Metric,Stock,Text
+OD6306,Organizational Description,Organizational Information,Cross-Sector,Operational Model,"Operational model of the organization. Select all that apply: 
+- Production/Manufacturing: Production and/or manufacturing of goods (e.g.  farming  construction  manufacturing) 
+- Processing/Packaging: Processing and/or packaging of goods (can include both raw materials  such as wheat  or secondary materials/goods) 
+- Distribution: Delivery of good or service to the target audience  whether through traditional transport (e.g.  vehicle  rail  air) or infrastructure (electric grid operator) 
+- Wholesale/Retail: Intermediary organization that purchases goods and sells them to new target customers 
+- Services: Services such as education  health  communication  transportation  social services  etc.
+- Financial Services: Financial products and services ",Metric,Stock,Selection
+OD7796,Organizational Description,Organizational Information,Cross-Sector,Organization Web Address,Web address (URL) of the organization.,Metric,Stock,Text
+PD3017,Product Description,Product/Service Information,Cross-Sector,Product/Service Type,"Primary sector(s) that define the organization's economic activity/operations. Select all that apply:
+- Agriculture  forestry and fishing
+- Energy  mining and quarrying
+- Manufacturing
+- Electricity  gas  steam and air conditioning supply
+- Water supply; sewerage  waste management and remediation activities
+- Construction
+- Wholesale and retail trade; repair of motor vehicles and motorcycles
+- Transportation and storage
+- Accommodation and food service activities
+- Information and communication
+- Financial and insurance activities
+- Real estate activities 
+- Professional  scientific and technical activities
+- Administrative and support service activities
+- Public administration and defense; compulsory social security
+- Education
+- Human health and social work activities
+- Arts  entertainment and recreation
+- Other service activities
+- Activities of households as employers; undifferentiated goods - and services-producing activities of households for own use
+- Activities of extraterritorial organizations and bodies
+- Environmental Management
+- Other (footnote)
+
+Source: UN -International Standard Industrial Classification of All Economic Activities  Rev.4 
+http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=27",Metric,Stock,Selection
+PD1516,Product Description,Product/Service Information,Cross-Sector,Product/Service Detailed Type,Detailed type of product or service provided by the organization. Select one from the Excel Detailed List tab.,Metric,Stock,Selection
+PD7899,Product Description,Product/Service Information,Cross-Sector,Product/Service Description,Description of the product or service provided by the organization.,Metric,Stock,Text
+PD8808,Product Description,Product/Service Information,Cross-Sector,Sector Focus,"Indicate the sector(s) in which the organization focuses and seeks to influence. Select all that apply:
+- Agriculture
+- Artisanal
+- Culture
+- Education
+- Energy
+- Environment
+- Financial Services
+- Health
+- Housing and Community Development
+- Information and Communication Technologies (ICT)
+- Infrastructure/ Facilities Development
+- Land Conservation
+- Microinsurance
+- Supply Chain Services
+- Technical Assistance Services
+- Tourism
+- Water
+- Other",Metric,Stock,Selection
+OD3520,Organizational Description,Organizational Information,Cross-Sector,Year Founded,Year the organization was founded.,Metric,Flow,Date
+OD3725,Organizational Description,Report Information,Cross-Sector,IRIS ID,IRIS ID of the organization reporting data.,Metric,Stock,Number
+OD6951,Organizational Description,Report Information,Cross-Sector,Report Start Date,Start date of the reporting period for which the organization is providing data.,Metric,Stock,Date
+OD7111,Organizational Description,Report Information,Cross-Sector,Report End Date,End date of the reporting period for which the organization is providing data.,Metric,Stock,Date
+OD5990,Organizational Description,Report Information,Cross-Sector,Reporting Currency,"The national currency used to report currency figures for this IRIS report. 
+
+Indicate based on the International Organization for Standardization (ISO) Currency List. Select one from the Excel Detailed List tab.",Metric,Stock,Selection of 3 letter code
+PD1602,Product Description,Report Information,Cross-Sector,Unit of Measure,"Unit of measure for reporting the units sold  produced  exported  or installed by the organization. 
+
+Select one:
+ - Hectares
+ - Hours
+ - Kilograms
+ - Km
+ - kWh
+ - Licenses
+ - Liters
+ - Square feet
+ - Square meters
+ - Metric tonnes
+ - Pounds
+- Quintile
+- Tons
+- Transactions
+- Units
+
+Note: Several indicators are reported in conjunction with this indicator  for example Units Sold (PI1263).",Metric,Flow,Selection
+OI5101,Product Description,Environmental Policies,Cross-Sector,Biodegradable Materials,Amount of biodegradable materials used in the organization's products (including packaging) during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+PD4587,Product Description,Product/Service Information,Cross-Sector,Product Lifetime,"Lifetime of the product provided by the organization (based on reasonable use). 
+
+Organizations should footnote the method used for estimating life span (e.g. research & development  field test  customer surveys).",Metric,Flow,Number of years
+PD2756,Product Description,Product/Service Information,Cross-Sector,Product/Service Certifications,"Indicate third-party certifications for products/services sold by the organization  that are valid as of the end of the reporting period. 
+
+Organization should footnote the certification name  certifying body  and date since the product/service has been continuously certified  for all product/service level certifications obtained by the organization.",Metric,Stock,Text
+PD9364,Product Description,Product/Service Information,Cross-Sector,Recycled Materials Ratio,Percentage of recycled materials used to manufacture the organization’s product (including packaging)/services  during the reporting period.,Metric,Flow,Decimal
+PD2587,Product Description,Target Beneficiaries,Cross-Sector,Client Locations,Countries where the organization's products/services are purchased/used. Select all that apply from the Excel Detailed List tab.,Metric,Stock,Selection
+PD7993,Product Description,Target Beneficiaries,Cross-Sector,Client Type,"Types of entities that are buyers or recipients of the organization's products/services. Select all that apply:
+- Individuals
+- Households
+- Microenterprises
+- Small-to-Medium Enterprises
+- Large Enterprises
+- Non-profit / Non-Governmental Organizations
+- Governmental Organizations
+- Other (footnote)",Metric,Stock,Selection
+PD6806,Product Description,Target Beneficiaries,Cross-Sector,Client State/Province/Region,States or provinces where the organization's products/services are purchased/used. In countries where state postal abbreviations exist  use appropriate codes (e.g.  New York  USA = NY or Andhra Pradesh  India= AP). ,Metric,Stock,Text
+PD3569,Product Description,Target Beneficiaries,Cross-Sector,Poverty Assessment,"Indicate whether the organization assesses the poverty levels of its intended beneficiaries. 
+
+Organizations should footnote the details around the frequency and ways in which poverty levels are assessed and the type of beneficiary (clients  suppliers  distributors  etc.) assessed.",Metric,Stock,Yes/No
+PD4565,Product Description,Target Beneficiaries,Cross-Sector,Supplier Locations,Countries where the organization's suppliers are located. Select all that apply from the Excel Detailed List tab.,Metric,Stock,Selection
+PD5752,Product Description,Target Beneficiaries,Cross-Sector,Target Beneficiary Demographic,"Demographic groups of beneficiaries targeted by the organization. Select all that apply:
+- Children (younger than 10 years old)
+- Adolescents (10 year of age or older but younger than 19)
+- Adults
+- Elderly/older adults
+- Persons with disabilities
+- Minority/previously excluded populations
+- Women
+- Pregnant women
+- Other at risk populations
+- Other target populations",Metric,Stock,Selection
+PD6384,Product Description,Target Beneficiaries,Cross-Sector,Target Beneficiary Setting,"Setting of the groups of beneficiaries targeted by the organization.  Select all that apply:
+- Rural
+- Urban
+- Peri-urban
+",Metric,Stock,Selection
+PD2541,Product Description,Target Beneficiaries,Cross-Sector,Target Beneficiary Socioeconomics,"Socioeconomic groups of beneficiaries targeted by the organization.  Select all that apply:
+- Very poor 
+- Poor 
+- Low income 
+- Other",Metric,Stock,Selection
+PI2758,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Total,Number of individuals who serve as distributors of the organization’s products/services during the reporting period. ,Metric,Flow,Number of people
+PI6659,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Female,Number of female individuals who serve as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of people
+PI9516,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Poor,Number of poor individuals who serve as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of people
+PI9113,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Very Poor,Number of very poor individuals who serve as distributors to sell the organization’s products/services during the reporting period.,Submetric,Flow,Number of people
+PI2125,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Low Income,Number of low income individuals who served as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of people
+PI3972,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Rural,Number of individuals in rural areas who served as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of people
+PI8982,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Urban,Number of individuals in urban areas who served as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of people
+PI3995,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Peri-urban,Number of individuals in peri-urban areas who served as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of people
+PI1160,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Disabilities,Number of individuals with disabilities who served as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of people
+PI8470,Product Impact,Distributor Information,Cross-Sector,Distributor Individual: Minority/Previously Excluded,Number of individuals who belong to minority or previously excluded groups and served as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of people
+PI4881,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Total,Earnings generated by individual distributors from selling the organization's products/services during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI2551,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Female,"Earnings generated by female individual distributors from selling the organization's products/services  during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI3962,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Poor,"Earnings generated by poor individual distributors from selling the organization's products/services  during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI5391,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Very Poor,"Earnings generated by very poor individual distributors from selling the organization's products/services  during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI2594,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Low Income,"Earnings generated by low income individual distributors from selling the organization's products/services  during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI8943,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Rural,"Earnings generated by individual distributors in rural areas from selling the organization's products/services  during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI9676,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Urban,"Earnings generated by individual distributors in urban areas from selling the organization's products/services  during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI9973,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Peri-urban,"Earnings generated by individuals distributors in peri-urban areas from selling the organization's products/services  during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI4341,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Disabilities,"Earnings generated by individual distributors with disabilities from selling the organization's products/services during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI9654,Product Impact,Distributor Information,Cross-Sector,Distributors Individual Earnings: Minority/Previously Excluded,"Earnings generated by individuals who belong to minority or previously excluded groups from selling the organization's products/services during the reporting period.
+",Submetric,Flow,Reporting Currency (OD5990)
+PI1060,Product Impact,Distributor Information,Cross-Sector,Distributor Organization: Total,Number of enterprises that served as distributors of the organization’s products/services during the reporting period. ,Metric,Flow,Number of organizations
+PI8415,Product Impact,Distributor Information,Cross-Sector,Distributor Organization: Microenterprises,Number of microenterprises that served as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of organizations
+PI9401,Product Impact,Distributor Information,Cross-Sector,Distributor Organization: SME,Number of small-to-medium enterprises (SMEs) that served as distributors of the organization’s products/services during the reporting period. ,Submetric,Flow,Number of organizations
+PI6218,Product Impact,Distributor Information,Cross-Sector,Distributors Organization Earnings: Total,"Earnings generated by distributor enterprises from selling the organization's products/services during the reporting period.
+",Metric,Flow,Reporting Currency (OD5990)
+PI8021,Product Impact,Distributor Information,Cross-Sector,Distributors Organization Earnings: Microenterprise,Earnings generated by microenterprise distributors from selling the organization's products/services  during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI2888,Product Impact,Distributor Information,Cross-Sector,Distributors Organization Earnings: SME,Earnings generated by small-to-medium enterprise (SME) distributors from selling the organization's products/services  during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI2998,Product Impact,Quantity & Reach,Cross-Sector,Individuals Receiving Training: Total,"Number of individuals who received training offered by the organization during the reporting period.
+
+Organizations should footnote the type and extent of training provided.",Metric,Flow,Number of people
+PI7997,Product Impact,Quantity & Reach,Cross-Sector,Individuals Receiving Training: Group-Based Training,Number of individuals who received group-based training from the organization during the reporting period.,Submetric,Flow,Number of people
+PI5352,Product Impact,Quantity & Reach,Cross-Sector,Individuals Receiving Training: Technical Assistance,Number of individuals who received one-on-one technical assistance from the organization during the reporting period.,Submetric,Flow,Number of people
+PI6065,Product Impact,Quantity & Reach,Cross-Sector,Organizations Receiving Training,"Number of organizations that received training from the reporting organization during the reporting period.
+
+Organizations should footnote the type and extent of training provided.",Metric,Flow,Number of organizations
+PI1263,Product Impact,Quantity & Reach,Cross-Sector,Units/Volume Sold: Total,"Amount of the product/service sold by the organization during the reporting period.
+",Metric,Flow,Unit of Measure (PD1602)
+PI9029,Product Impact,Quantity & Reach,Cross-Sector,Units/Volume Sold: Exported,Amount of the product/service exported internationally by the organization  during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+PI7289,Product Impact,Quantity & Reach,Cross-Sector,Units/Volume Sold: Certified,Amount of the product sold by the organization as certified during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+PI8454,Product Impact,Quantity & Reach,Cross-Sector,Units/Volume Sold: No Direct Payment,Amount of the product/service sold during the reporting period where no direct payment was provided to the organization at the time of service but for which the organization expects to be reimbursed.,Submetric,Flow,Unit of Measure (PD1602)
+PI8329,Product Impact,Quantity & Reach,Cross-Sector,Units/Volume Sold: Free,Amount of the product/service provided by the organization for free during the reporting period. ,Submetric,Flow,Unit of Measure (PD1602)
+PI1290,Product Impact,Quantity & Reach,Cross-Sector,Units/Volume Produced,Amount of the product/service produced by the organization during the reporting period. ,Metric,Flow,Unit of Measure (PD1602)
+PI5350,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Total,Number of individuals who sold goods or services to the organization during the reporting period.,Metric,Flow,Number of people
+PI1728,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Female,Number of female individuals who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI2242,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Poor,Number of poor individuals who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI8337,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Very Poor,Number of very poor individuals who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI8819,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Low Income,Number of low income individuals who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI2566,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Rural ,Number of individuals  living in rural areas  who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI6179,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Urban,Number of individuals  living in urban areas  who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI6085,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Peri-urban ,Number of individuals  living in peri-urban areas  who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI6189,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Disabilities,Number of individuals with disabilities who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI9261,Product Impact,Supplier Information,Cross-Sector,Supplier Individuals: Minorities/Previously Excluded,Number of individuals who belong to minority or previously excluded groups and who sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of people
+PI9991,Product Impact,Supplier Information,Agriculture,Supplier Individuals: Smallholder,Number of smallholder farmers who sold to the organization during the reporting period.,Submetric,Flow,Number of people
+PI1492,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Total,Value of payments made by the organization to individuals who sold to the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI2302,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Female,Value of payments made by the organization to female individuals who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI7815,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Poor,Value of payments made by the organization to poor individuals who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI9048,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Very Poor,Value of payments made by the organization to very poor individuals who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI8999,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Low Income,Value of payments made by the organization to low income individuals who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI4096,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Rural ,Value of payments made by the organization to individuals living in rural areas who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI3406,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Urban,Value of payments made by the organization to individuals living in urban areas who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI9850,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Peri-Urban ,Value of payments made by the organization to individuals living in peri-urban areas who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI6858,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Disabilities,Value of payments made by the organization to individuals with disabilities who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI7814,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Individuals: Minorities/Previously Excluded,Value of payments made by the organization to individuals belonging to minority or previously excluded groups who sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI7852,Product Impact,Supplier Information,Agriculture,Payments to Supplier Individuals:  Smallholder,Value of payments made to smallholder farmers who sold to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI9566,Product Impact,Supplier Information,Cross-Sector,Supplier Organizations: Total,Number of enterprises that sold goods or services to the organization during the reporting period.,Metric,Flow,Number of organizations
+PI6385,Product Impact,Supplier Information,Cross-Sector,Supplier Organizations: Local,"Number of local enterprises that sold goods or services to the organization during the reporting period. 
+
+Organizations should footnote their definition of ""local"". ",Submetric,Flow,Number of organizations
+PI9495,Product Impact,Supplier Information,Cross-Sector,Supplier Organizations: SME,Number of small-to-medium enterprises (SMEs) that sold goods or services to the organization during the reporting period.,Submetric,Flow,Number of organizations
+PI5478,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Organizations: Total,Value of payments made to enterprises that sold goods or services to the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI1849,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Organizations: Local,"Value of payments made to local enterprises that sold goods or services to the organization during the reporting period. 
+
+Organizations should footnote their definition of ""local"". ",Submetric,Flow,Reporting Currency (OD5990)
+PI7867,Product Impact,Supplier Information,Cross-Sector,Payments to Supplier Organizations: SME,Value of payments to small-to-medium enterprises (SMEs) that sold goods or services to the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PD1620,Product Description,Product/Service Information,Agriculture,Crop Type,"Type of crop(s) produced by the organization. Select from the options in the Excel Reference List tab.
+
+Source: Adapted from Food and Agriculture Organization (FAO) of the United Nations",Metric,Flow,Selection
+PD4686,Product Description,Product/Service Information,Agriculture,Livestock/Fish Type,"Type of livestock product(s) produced by the organization. Select from the options in the Excel Reference List tab.
+
+Source: Food and Agriculture Organization (FAO) of the United Nations.",Metric,Flow,Selection
+OI5408,Operational Impact,Environmental Performance,Agriculture,Land Directly Controlled: Total,Area of land  in hectares  directly controlled by the organization at any point during the reporting period.,Metric,Flow,Number of hectares
+OI1674,Operational Impact,Environmental Performance,Agriculture,Land Directly Controlled: Cultivated,Area of land  in hectares  directly controlled by the organization and under cultivation. Report hectares cultivated at any point during the reporting period.,Submetric,Flow,Number of hectares
+OI6912,Operational Impact,Environmental Performance,Agriculture,Land Directly Controlled: Sustainably Managed,Area of land  in hectares  directly controlled by the organization and under sustainable cultivation or sustainable stewardship. Report directly-controlled hectares sustainably managed at any point during the reporting period.,Submetric,Flow,Number of hectares
+OI2569,Operational Impact,Environmental Performance,Agriculture,Land Directly Controlled: Treated with Pesticides,Area of land  in hectares  directly controlled by the organization and treated with highly hazardous pesticides. Report number of hectares treated at any point during the reporting period.,Submetric,Flow,Number of hectares
+OI9891,Operational Impact,Environmental Performance,Agriculture,Pesticide Use,Amount of highly hazardous pesticides used during the reporting period on land area directly controlled by  the organization.,Metric,Flow,Unit of Measure (PD1602)
+PI9988,Product Impact,Quantity & Reach,Agriculture,Purchase Contracts,Number of contracts/purchase agreements that the organization holds for purchase of its products/services. Report contracts fulfilled and outstanding as of the end of the reporting period. ,Metric,Stock,Number of contracts
+PI3789,Operational Impact,Environmental Performance,Agriculture,Land Indirectly Controlled: Total,Area of land  in hectares  indirectly controlled by the organization at any point during the reporting period.,Metric,Flow,Number of hectares
+PI7403,Operational Impact,Environmental Performance,Agriculture,Land Indirectly Controlled: Cultivated,Area of land  in hectares  indirectly controlled by the organization and under cultivation. Report hectares cultivated at any point during the reporting period.,Submetric,Flow,Number of hectares
+PI6796,Operational Impact,Environmental Performance,Agriculture,Land Indirectly Controlled: Sustainably Managed,Area of land  in hectares  indirectly controlled by the organization and under sustainable cultivation or sustainable stewardship. Report indirectly-controlled hectares sustainably managed at any point during the reporting period.,Submetric,Flow,Number of hectares
+PI1568,Product Impact,Quality & Performance,Agriculture,Producer Price Premium,"Price premium obtained  by the producer of goods  by selling  to the organization.  This is relative to the average price that would otherwise be obtained in the local area for a similar good during the reporting period.
+
+Organizations should footnote the assumptions used when reporting against this metric.
+",Metric,Flow,Decimal
+PI2422,Product Impact,Quantity & Reach,Agriculture,Units/Volume Purchased at Price Premium,Units/volume purchased from suppliers that sold to the organization that have received a price premium  during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+PI3468,Product Impact,Client Information,Agriculture,Client Crop Yield,Average agricultural yield per hectare  of clients (who were farmers) of the organization during the reporting period.,Metric,Flow,Unit of Measure (PD1602) selection per Hectare
+PI9421,Product Impact,Client Information,Agriculture,Client Crop Yield: Smallholder,Average agricultural yield per hectare  of clients (who were smallholder farmers) of the organization during the reporting period.,Submetric,Flow,Unit of Measure (PD1602) selection per Hectare
+PI2019,Product Impact,Supplier Information,Agriculture,Units/Volume Purchased from  Supplier Organizations: Total,Units/volume purchased from organizations that sold to the reporting organization during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+PI8418,Product Impact,Supplier Information,Agriculture,Units/Volume Purchased from Supplier Organizations: Local,"Units/volume purchased from local organizations that sold to the reporting organization during the reporting period. 
+
+Organizations should footnote their definition of ""local.""",Submetric,Flow,Unit of Measure (PD1602)
+PI5473,Product Impact,Supplier Information,Agriculture,Units/Volume Purchased from Supplier Organizations: SME,Units/volume purchased from small-to-medium enterprises (SMEs) that sold to the reporting organization during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+PI7923,Product Impact,Supplier Information,Agriculture,Units/Volume Purchased from Supplier Individuals: Total,Units/volume purchased from individuals who sold to the organization during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+PI9428,Product Impact,Supplier Information,Agriculture,Units/Volume Purchased from Supplier Individuals: Female,Units/volume purchased from female individuals who sold to the organization during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+PI6646,Product Impact,Supplier Information,Agriculture,Units/Volume Purchased from Supplier Individuals: Minorities/Previously Excluded,Units/volume purchased from individuals belonging to minority or previously excluded groups who sold to the organization during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+PI4982,Product Impact,Supplier Information,Agriculture,Units/Volume Purchased from  Supplier Individuals: Smallholder,Units/volume purchased from smallholder farmers who sold to the organization during the reporting period.,Submetric,Flow,Unit of Measure (PD1602)
+PI2046,Product Impact,Supplier Information,Agriculture,Supplier Individuals Yield: Total,Average agricultural yield per hectare of individuals who sold to the organization (supplier individuals) during the reporting period. ,Metric,Flow,Unit of Measure (PD1602) selection per Hectare
+PI1405,Product Impact,Supplier Information,Agriculture,Supplier Individuals Yield: Smallholder,Average agricultural yield per hectare of smallholder farmers who sold to the organization during the reporting period. ,Submetric,Flow,Unit of Measure (PD1602) selection per Hectare
+PI2389,Product Impact,Client Information,Education,School Enrollment: Total,Number of students enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Metric,Stock,Number of people
+PI1081,Product Impact,Client Information,Education,School Enrollment:  Female,Number of female students enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+PI7254,Product Impact,Client Information,Education,School Enrollment: Poor,Number of poor students enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+PI5583,Product Impact,Client Information,Education,School Enrollment: Very Poor,Number of very poor students enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+PI2173,Product Impact,Client Information,Education,School Enrollment: Low Income,Number of low income students enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+PI6569,Product Impact,Client Information,Education,School Enrollment: Rural,Number of students  living in rural areas  enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+PI8069,Product Impact,Client Information,Education,School Enrollment: Urban,Number of students  living in urban areas  enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+PI3337,Product Impact,Client Information,Education,School Enrollment: Peri- urban,Number of students  living in peri-urban areas  enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+PI5954,Product Impact,Client Information,Education,School Enrollment: Disabilities,Number of students with disabilities enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+PI7774,Product Impact,Client Information,Education,School Enrollment:  Minorities/Previously Excluded,Number of students who belong to minority or previously excluded groups and are enrolled as of the end the reporting period  both full-time and part-time  where each discrete student is counted regardless of number of courses.,Submetric,Stock,Number of people
+OI5896,Operational Impact,Employees,Education,Teachers Employed,Number of full-time and part-time teachers employed by the organization as of the end of the reporting period.,Metric,Stock,Number of people
+PI3651,Product Impact,Quality & Performance,Education,Teacher Attendance Rate,"Rate of teacher attendance during the reporting period.
+",Metric,Flow,Decimal
+PI1902,Product Impact,Quality & Performance,Education,Teacher Qualifications,"Number of teachers as of the end of the reporting period who have obtained training or have qualifications that meet or exceed minimum requirements of the local area. 
+
+Organizations should footnote the minimum level of qualifications required in local area.",Metric,Stock,Number of people
+PI7871,Product Impact,Quality & Performance,Education,Teaching Experience,Average number of years of formal education for teachers/instructors  as of the end of the reporting period.,Metric,Stock,Number of years
+PI3786,Product Impact,Quality & Performance,Education,Student Attendance Rate,Rate of student attendance during the reporting period. ,Metric,Flow,Decimal
+PI9910,Product Impact,Quality & Performance,Education,Student Dropout Rate,Percentage of students that were attending school at the beginning of the reporting period but dropped-out during the reporting period. ,Metric,Flow,Decimal
+PI4924,Product Impact,Quality & Performance,Education,Student Transition Rate,Percentage of students advancing from one level of schooling to the next. ,Metric,Stock,Decimal
+PI8372,Product Impact,Quality & Performance,Education,Student Tests Pass Rate,"Percentage of school students passing standardized tests as defined by regional standards  during the reporting period.
+
+Organizations should  footnote the description of the test  threshold for passing  how many tests were taken  etc.",Metric,Flow,Decimal
+PI5501,Product Impact,Quality & Performance,Education,Student to Classroom Ratio,Number of students per classroom during the reporting period.,Metric,Flow,Decimal
+PI5380,Product Impact,Quality & Performance,Education,Classroom Area per Student,"Area of classroom space per student during the reporting period.
+",Metric,Flow,Number of square feet or square meters 
+PI4243,Product Impact,Quality & Performance,Education,Student to Toilet Ratio,Number of functioning toilets per student during the reporting period.,Metric,Flow,Decimal
+PI5110,Product Impact,Quality & Performance,Education,Student to Teacher Ratio,Number of students per teacher during the reporting period.,Metric,Flow,Decimal
+PI4279,Product Impact,Quality & Performance,Education,Textbook to Student Ratio,Number of textbooks per student provided by the organization during the reporting period.,Metric,Flow,Decimal
+PI8836,Product Impact,Quality & Performance,Education,Vocational/ Technical Training,Number of students receiving vocational or technical training during the reporting period.,Metric,Flow,Number of people
+PI3527,Product Impact,Quality & Performance,Education,Job Placement Rate,Percentage of students who were placed in part-  full-  temporary  or permanent jobs during the reporting period. ,Metric,Flow,Decimal
+PI6971,Product Impact,Quality & Performance,Education,School Meals,Number of free or subsidized meals provided by the organization during the reporting period.  ,Metric,Flow,Number of meals
+PI1136,Product Impact,Quality & Performance,Education,Student Transportation,"Indicate whether or not the organization provided transportation to students that needed/requested it during the reporting period.
+
+Organizations should footnote the type of transportation provided and the percentage of students that use it.",Metric,Flow,Yes/No
+PI4509,Product Impact,Client Information,Education,Students Provided Full Scholarship,Number of students receiving full scholarships during the reporting period.,Metric,Flow,Number of people
+PI3499,Product Impact,Client Information,Education,Students Provided Partial Scholarship,Number of students receiving partial scholarships during the reporting period.,Metric,Flow,Number of people
+PI5736,Product Impact,Quality & Performance,Education,Value of New Education Instructional Materials,Value of new educational instructional materials provided to students by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI4554,Product Impact,Quality & Performance,Education,Value of New Education Facility Materials,Value of new educational facility materials provided to students by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI7268,Product Impact,Quality & Performance,Education,Classroom Space New/Improved,Area of classroom space that was built  converted  or expanded for use within educational facilities.  Report only space completed during the reporting period. ,Metric,Flow,Number of square feet or square meters 
+PD4120,Product Description,Product/Service Information,Education,Hours of School Offered per Week,"Number of classroom hours taught to a representative student per week.
+
+Organizations should footnote assumptions used in deriving the calculation.",Metric,Flow,Number of hours
+PD8635,Product Description,Product/Service Information,Education,Days of School Offered per Year,Number of days of school offered by the organization per year.,Metric,Flow,Number of days
+PD1392,Product Description,Product/Service Information,Education,Parent/Community-Teacher Engagement,"Indicate whether the organization initiates engagement with the community/parents. 
+
+Organizations should footnote their description of engagement. ",Metric,Stock,Yes/No
+PD9759,Product Description,Product/Service Information,Education,Extracurricular Programs Offered,"Indicate whether the organization provides extracurricular activities. 
+
+Organizations should footnote the specific extracurricular programs provided.",Metric,Stock,Yes/No
+PI2718,Product Description,Product/Service Information,Education,School Fees,Average school fee per student per month during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PD2713,Product Description,Product/Service Information,Energy,Energy Capacity of Product,"Amount of potential energy generation over the lifetime of the product based on the planned operation of the product/system. 
+
+Organizations should footnote the energy type(s) and other calculation assumptions when reporting against this metric.",Metric,Flow,Number of kWh
+PD1504,Product Description,Product/Service Information,Energy,Energy Capacity of Products Sold,"Amount of potential energy generation over the lifetime of the product for all products sold during  the reporting period. 
+
+Organizations should footnote the energy type(s) and other calculation assumptions when reporting against this metric.",Metric,Flow,Number of kWh
+PD6596,Product Description,Product/Service Information,Energy,Energy Consumption of Product,"Amount of energy used by the product during the product lifetime.
+
+Organizations should footnote assumptions made with respect to product utilization (e.g.  hours used and watts/hr).",Metric,Flow,Number of kWh
+PD5578,Product Description,Product/Service Information,Energy,Energy Consumption of Product Replaced,"Amount of energy that would have been used by the replaced product during the lifetime of the organization's product. 
+
+Organizations should footnote the product replaced  source for product utilization information and other calculation assumptions.",Metric,Flow,Number of kWh
+PI7623,Product Description,Quality & Performance,Energy,Energy Savings from Products Sold,"Amount of energy savings over the lifetime of the organization's products for those products that were sold during the reporting period. 
+
+Organizations should footnote the energy type(s) and calculation assumptions used when reporting against this metric.",Metric,Flow,Number of kWh
+PI8706,Product Impact,Quality & Performance,Energy,Energy Produced for Service Sale,"Energy produced and delivered to offtaker(s) during the reporting period. 
+
+Organizations should footnote the energy type(s) and calculation assumptions used when reporting against this metric.",Metric,Flow,Number of kWh
+PD4927,Product Description,Quality & Performance,Energy,Energy Savings from Services Sold,"Amount of energy savings due to the organization's services that were sold during the reporting period. 
+
+Organizations should footnote the energy type(s) and calculation assumptions used when reporting against this metric.",Metric,Flow,Number of kWh
+PD9427,Product Impact,Quality & Performance,Environment,Greenhouse Gas Emissions of Product,"Greenhouse gas (GHG) emissions of the product during the product lifetime. 
+
+Organizations should footnote emissions calculation assumptions/tools used.",Metric,Flow,Number of metric tonnes of CO2 equivalent
+PD2243,Product Impact,Quality & Performance,Environment,Greenhouse Gas Emissions of Product Replaced,"Greenhouse gas (GHG) emissions that would have been produced by the replaced product during the lifetime of the organization's product. 
+
+Organizations should footnote details on the product replaced and emissions calculation assumptions/tools used.",Metric,Flow,Number of metric tonnes of CO2 equivalent
+PI5376,Product Impact,Quality & Performance,Environment,Greenhouse Gas Reductions due to Products Sold,"Amount of reductions in greenhouse gas (GHG) emissions over the lifetime of products sold during the reporting period.   
+
+Organizations should footnote the energy type(s) and calculation assumptions used when reporting against this metric.",Metric,Flow,Number of metric tonnes of CO2 equivalent
+PI2073,Product Impact,Quality & Performance,Environment,Hazardous Waste Avoided,"Amount of hazardous waste avoided based on refurbishing/reusing/recycling as part of delivering or developing the organization's products/services during the reporting period.
+
+Organizations should footnote assumptions used when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+PI8177,Product Impact,Quality & Performance,Environment,Non-hazardous Waste Avoided,"Amount of non-hazardous waste disposal avoided based on the organization's refurbishing/reusing/recycling as part of delivering or developing the organization's products/services during the reporting period.
+
+Organizations should footnote assumptions used when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+PI4127,Product Impact,Quality & Performance,Environment,Trees Planted,Hectares of trees planted by the organization during the reporting period.,Metric,Flow,Number of hectares
+PI3848,Product Impact,Quality & Performance,Environment,Trees Planted: Native Species,Hectares of native species planted by the organization during the reporting period.,Submetric,Flow,Number of hectares
+PI4907,Product Impact,Quality & Performance,Environment,Land Reforested,Hectares of land that have been reforested by the organization during the reporting period.,Metric,Flow,Number of hectares
+FP2392,Financial Performance,Balance Sheet,Financial Services,Impairment Loss Allowance,Value of contra asset account set up by the organization as a provision for the potential future loss of capital that has been lent out by the firm at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+FP2630,Financial Performance,Balance Sheet,Financial Services,Loans Receivable Gross,Value of outstanding principals for all of the organization's outstanding loans due from clients at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+FP1129,Financial Performance,Balance Sheet,Financial Services,Loans Receivable Net,Net value of the organization's loans receivable  at the end of the reporting period. ,Metric,Stock,Reporting Currency (OD5990)
+FP3939,Financial Performance,Income Statement,Financial Services,Loans Recovered,Value collected by the organization during the reporting period on loans that had previously been written off.,Metric,Flow,Reporting Currency (OD5990)
+FP9083,Financial Performance,Balance Sheet,Financial Services,Total Deposits,Value of the organization's customer deposits  whether voluntary  compulsory  demand  or term  as well as all other liabilities from customers at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+FP2553,Financial Performance,Income Statement,Financial Services,Financial Expenses,Value of expenditures incurred by the organization  during the reporting period  due to interest  fees  and commissions incurred on the organization's liabilities  including any client deposit accounts held by the organization  borrowings  subordinated debt  and other financial liabilities during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+FP1717,Financial Performance,Income Statement,Cross-Sector,Impaired Assets,"Value of assets classified as impaired under regulatory or accounting rules and recorded by the organization during the reporting period.
+
+Impaired asset is a condition in which an asset’s market value falls below its carrying amount and is not expected to recover.",Metric,Flow,Reporting Currency (OD5990)
+FP1192,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Loan to Deposit (LTD) Ratio ,Ratio used to assess an organization's liquidity  calculated by dividing the organization's loans receivable gross by it's total deposits  as of the end of the reporting period.  ,Metric,Stock,Reporting Currency (OD5990)
+FP8569,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Operating Efficiency,"Ratio used to assess an organization's operating efficiency  calculated by dividing the organization's operating expense by it's average loans receivable gross.
+",Metric,Flow,Reporting Currency (OD5990)
+FP8295,Financial Performance,Ratios  Concepts  and Calculations,Cross-Sector,Personnel Efficiency,"Ratio used to assess an organization's personnel efficiency  calculated by dividing the organization's personnel expense by it's average loans receivable gross.
+",Metric,Flow,Reporting Currency (OD5990)
+FP2635,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Non Performing Loans (Portfolio at Risk)- 30 days,Value of all of the organization's loans outstanding at the end of the reporting period that have one or more installments of principal past due for more than 30 days. ,Metric,Stock,Reporting Currency (OD5990)
+FP6354,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Non Performing Loans (Portfolio at Risk)- 60 days,Value of all of the organization's loans outstanding at the end of the reporting period that have one or more installments of principal past due for more than 60 days. ,Metric,Stock,Reporting Currency (OD5990)
+FP6373,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Non Performing Loans (Portfolio at Risk)- 90 days,Value of all of the organization's loans outstanding at the end of the reporting period that have one or more installments of principal past due for more than 90 days.,Metric,Stock,Reporting Currency (OD5990)
+FP9717,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Loan Write-offs,Value of loans written off by the organization during the reporting period.  ,Metric,Flow,Reporting Currency (OD5990)
+FP1307,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Capital Available: Total,Value of capital available to the organization for lending and investing  at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+FP2638,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Capital Available: Borrowed Funds,Value of capital available to the organization for lending and investing  at the end of the reporting period that is attributed to debt obligations on the organization's balance sheet.  ,Submetric,Stock,Reporting Currency (OD5990)
+FP5662,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Capital Available:  Equity Capital,Value of capital available to the organization for lending and investing  at the end of the reporting period  that is attributed to equity contributions.,Submetric,Stock,Reporting Currency (OD5990)
+OI7783,Operational Impact,Social Policies,Financial Services,Social Responsibility to Financial Services Clients,"Policies the organization may use to protect clients. Select  all that apply:
+- All employees involved in collections are trained on collection practices in particular on acceptable and unacceptable debt collection practices which are clearly spelled out in a code of ethics  book of employee rules or debt collection manual.
+- Internal audits check household debt exposure  lending practices that violate procedures including unauthorized re-financing  multiple borrowers or co-signers per household  and other practices that could increase indebtedness.
+- Productivity targets and incentive systems value portfolio quality at least as highly as other factors  such as disbursement or customer growth. Growth is rewarded only if portfolio quality is high.
+- The institution’s collection practices are covered during the initial training of all employees involved in collections (loan officers  collections employees  and branch managers). In particular  collections employees receive training in acceptable debt collections practices and loan recovery procedures.
+- The institution documents and communicates to clients about loan policies and procedures for rescheduling credit. 
+- The institution's pre-payment penalties  account closure fees  transaction fees or other penalties are not excessive.
+- The organization's corporate culture values and rewards high standards of ethical behavior and customer service.
+- Other ",Metric,Stock,Selection
+OI4136,Operational Impact,Training & Assessment,Financial Services,Social and Environmental Performance Management Training,"Indicate whether any member of the organization's board of directors participated in training sessions related to any aspect of environmental or social performance management  during the reporting period.
+
+Organizations should footnote details on the type and duration of training.",Metric,Flow,Yes/No
+OI3943,Operational Impact,Training & Assessment,Financial Services,Social and Environmental Performance Staff Training,"Indicate whether any of the organization's employees participated in training sessions related to any aspect of environmental or social performance management during the reporting period.
+
+Organizations should footnote details on the type and duration of training.",Metric,Flow,Yes/No
+OI4953,Operational Impact,Training & Assessment,Financial Services,Social and Environmental Performance Incentives,"Indicate whether the organization implemented any employee incentive schemes related to social performance goals during the reporting period.
+
+Organizations should footnote the types of social performance employee incentives and the types of employees that qualify.  ",Metric,Flow,Yes/No
+OI2818,Operational Impact,Employees,Financial Services,Loan Officers Employed,Number of loan officers employed by the organization  at the end of the reporting period.,Metric,Stock,Number of people
+OI5803,Operational Impact,Wages,Financial Services,Loan Officer Wages,Value of wages (including bonuses) paid to loan officers during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+OD9109,Organizational Description,Organizational Information,Financial Services,Type of Financial Institution,"Type of financial institution. Select one:
+-  Community Action Agency (CAA)
+-  Community Development Financial Institution (CDFI)
+-  Credit Union/Cooperative
+-  Loan Fund (including microenterprise fund or Multibank Community Development Corporation (CDC))
+-  Non-Banking Financial Institution/Non-Banking Financial Corporation (NBFI/NBFC)
+-  Non-Profit/Non-Governmental Organization  including CDCs
+-  Rural Bank
+-  Thrift  Bank  Bank Holding Company
+-  Venture Capital Fund
+-  Other (footnote)",Metric,Stock,Selection
+PD7356,Product Description,Product/Service Information,Financial Services,Microfinance Delivery Methodology,"Financial services delivery methodologies used. Select all that apply:
+-  Individual Lending 
+-  Solidarity Group Lending 
+-  Village/Self-Help Group Lending
+-  Other (footnote)",Metric,Stock,Selection
+PD2691,Product Description,Product/Service Information,Financial Services,Interest Rate Method,"Amortization method used for the product reporting against.  Select one:
+-  Declining balance method 
+-  Flat interest method ",Metric,Stock,Selection
+PD1928,Product Description,Product/Service Information,Financial Services,Compulsory Insurance Products,"Insurance products that are compulsory for the product reporting against. Select all that apply:
+- Agricultural Insurance
+- Credit Life Insurance
+- Other (footnote)",Metric,Stock,Selection
+PD9337,Product Description,Product/Service Information,Financial Services,Compulsory Deposits,Indicate whether the organization requires clients to establish savings accounts.,Metric,Stock,Yes/No
+PD5098,Product Description,Product/Service Information,Financial Services,Other Financial Services Offered,"Types of financial services offered by the organization in addition to core credit  savings  and insurance products. Select  all that apply:
+- Debit/Credit Cards
+- Microleasing
+- Mobile Banking Services
+- Payments by Check 
+- Remittance Services
+- Savings Facilitation Services
+- Other (footnote)",Metric,Stock,Selection
+PD9681,Product Description,Product/Service Information,Financial Services,Non-financial Support Offered,"Indicate whether the organization provides any non-financial support services to clients. 
+
+Organizations should footnote the details on the types of services offered.",Metric,Stock,Selection
+PD7932,Product Description,Product/Service Information,Financial Services,Environmental Policies for Financial Services Clients,"Indicate whether the organization implements environmental policies associated with the organization's financing practices.  
+
+Organizations should footnote details on the types of policies in place.",Metric,Stock,Selection
+PI9250,Product Impact,Quality & Performance,Financial Services,Active Borrowers per Loan Officer,Number of active borrowers (clients) per loan officer at the organization  as of the end of the reporting period.,Metric,Stock,Decimal
+PI7467,Product Impact,Quality & Performance,Financial Services,Effective Interest Rate (EIR),"Effective interest rate (EIR) for the most representative loan product of the organization during the reporting period.
+
+Organizations should footnote the assumptions used when calculating this metric.",Metric,Flow,Reporting Currency (OD5990)
+PI4874,Product Impact,Quality & Performance,Cross-Sector,Jobs in Directly Supported/Financed Enterprises: Total,"Number of full-time equivalent employees working for enterprises financed or supported by the organization at the end of the reporting period. 
+
+Organizations should footnote the calculation assumptions  specifically the definition of full time work used when reporting against this metric.
+",Metric,Stock,FTEs
+PI5691,Product Impact,Quality & Performance,Cross-Sector,Jobs Maintained at Directly Supported/Financed Enterprises ,"Number of full-time equivalent employees working for enterprises financed or supported by the organization at the time when the organization began its support/investment. 
+
+Organizations should footnote the calculation assumptions  specifically the definition of full time work used when reporting against this metric.",Metric,Stock,FTEs
+PI2688,Product Impact,Quality & Performance,Cross-Sector,Jobs Maintained at Directly Supported/Financed Enterprises: Low Income Areas,"Number of full-time equivalent employees living in low-income areas  who work for enterprises financed or supported by the organization at the time when the organization began its support/investment. 
+
+Organizations should footnote the calculation assumptions  specifically the definition of full time work used when reporting against this metric.",Submetric,Stock,FTEs
+PI3687,Product Impact,Quality & Performance,Cross-Sector,Jobs Created at Directly Supported/Financed Enterprises: Total,"Net number of new full-time equivalent employees working for enterprises financed or supported by the organization at the end of the reporting period  and since the beginning of support/investment by the organization. 
+
+Organizations should footnote the calculation assumptions  specifically the definition of full time work used when reporting against this metric.",Metric,Stock,FTEs
+PI2251,Product Impact,Quality & Performance,Cross-Sector,Jobs Created at Directly Supported/Financed Enterprises: Low Income Areas,"Net number of new full-time equivalent employees living in low-income areas working for enterprises financed or supported by the organization at the end of the reporting period  and since the beginning of support/investment by the organization.
+
+Organizations should footnote the calculation assumptions  specifically the definition of full time work used when reporting against this metric.",Submetric,Stock,FTEs
+PI4583,Product Impact,Quality & Performance,Financial Services,New Businesses Created,Number of new businesses created as a result of investments made by the organization during the reporting period.,Metric,Flow,Number of businesses
+PI6414,Product Impact,Quality & Performance,Financial Services,New Businesses Created: Low Income Areas,Number of new business created in low income areas as a result of investments made during the reporting period.,Submetric,Flow,Number of businesses
+PI1934,Product Impact,Quality & Performance,Financial Services,Average Insurance Premium,Average amount of annualized insurance premium charged for a particular insurance product provided by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI3734,Product Impact,Quality & Performance,Financial Services,Minimum Insurance Premium,Minimum annualized insurance premium offered for the insurance product provided by the organization during the reporting period.,Submetric,Flow,Reporting Currency (OD5990)
+PI2025,Product Impact,Quality & Performance,Financial Services,Gross Earned Premium,Value of gross earned premiums collected by the organization as of the end of the reporting period without any deductions such as commissions and other expenses.,Metric,Flow,Reporting Currency (OD5990)
+PI7902,Product Impact,Quality & Performance,Financial Services,Claims Rejection Ratio,Percent of claims rejected by the organization during the reporting period relative to the total claims submitted to the organization during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+PI1478,Product Impact,Quantity & Reach,Financial Services,Number of Loans Outstanding,Number of loans on the organization's balance sheet at the end of the reporting period.,Metric,Stock,Number of investments
+PI7569,Product Impact,Quantity & Reach,Financial Services,Value of Loans Outstanding,Value of loans on the organization's balance sheet at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+PI8381,Product Impact,Quantity & Reach,Financial Services,Number of Loans Disbursed,Number of loans disbursed by the organization during the reporting period.,Metric,Flow,Number of investments
+PI5476,Product Impact,Quantity & Reach,Financial Services,Value of Loans Disbursed,Value of loans disbursed by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI1914,Product Impact,Quantity & Reach,Financial Services,Number of Equity Investments Outstanding,Number of equity investments on the organization's balance sheet at the end of the reporting period.  ,Metric,Stock,Number of investments
+PI7940,Product Impact,Quantity & Reach,Financial Services,Value of Equity Investments Outstanding,Value of equity investments on the organization's balance sheet at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+PI5066,Product Impact,Quantity & Reach,Financial Services,Number of Equity Deals Closed,Number of equity investments closed by the organization during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+PI4142,Product Impact,Quantity & Reach,Financial Services,Value of Equity Deals Closed,Value of equity investments closed by the organization at the end of the reporting period. ,Metric,Stock,Reporting Currency (OD5990)
+PI6439,Product Impact,Quantity & Reach,Financial Services,Number of Voluntary Savings Accounts,Number of voluntary savings accounts managed by the organization  including demand deposits and time deposits  at the end of the reporting period.,Metric,Stock,Number of investments
+PI3240,Product Impact,Quantity & Reach,Financial Services,Value of Voluntary Savings Accounts,Value of voluntary savings accounts managed by the organization  including demand deposits and time deposits  at the end of the reporting period.,Metric,Stock,Reporting Currency (OD5990)
+FP8478,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Incurred Claims Ratio,Percent of gross incurred claims during the reporting period relative to the gross earned premium during the same reporting period. ,Metric,Flow,Decimal
+FP2460,Financial Performance,Balance Sheet,Financial Services,Gross Incurred Claims,Value of the organization's gross incurred claims at the end of the reporting period. Incurred claims are those where the insured event has happened  and for which the insurer may be liable if a claim is made. An insurer is usually not aware of all incurred claims at a particular point in time or for a current accounting period. ,Metric,Flow,Reporting Currency (OD5990)
+PI1275,Product Impact,Quality & Performance,Financial Services,Renewal Ratio,Percent of policies that stay enrolled after their coverage term expires  during the reporting period.,Metric,Stock,Decimal
+PI3212,Product Impact,Quality & Performance,Financial Services,Number of Renewals,Number of policies that are renewed after the coverage term expired  during the reporting period.,Metric,Stock,Number of policies
+PI3069,Product Impact,Quality & Performance,Financial Services,Number of Potential Renewals,"Number of policies that could have been renewed during the reporting period. This number excludes policies that became ineligible due to clients' old age  death  or due to other reasons which results in ineligibility during the reporting period.  
+
+Organizations should footnote specific criteria resulting in ineligibility.",Metric,Stock,Number of policies
+PI9897,Product Impact,Quality & Performance,Financial Services,Promptness of Claims Settlement,"Average number of days elapsed between when an insured incident occurred and when the beneficiary received the payment or claim denial  for all claims settled (or rejected) during the reporting period.
+
+Organizations should note that acceptable timing can vary by geography  and should footnote the details of claims settlement using a schedule to reflect the detailed timeline breakouts of claims settlement.  See usage guidance for further information.",Metric,Flow,Decimal
+PI2070,Product Impact,Quality & Performance,Financial Services,Promptness of Claims Submission,Average number of days elapsed between when an insured incident occurred and when the beneficiary submits a complete claim  for all claims settled during the reporting period. ,Metric,Flow,Decimal
+PI8919,Product Impact,Quality & Performance,Financial Services,Promptness of Claims Processing,Average number of days elapsed between when a beneficiary submits a completed claim and when the beneficiary received the payment or claim denial  for all claims settled during the reporting period.,Metric,Flow,Decimal
+PI3383,Product Impact,Quality & Performance,Financial Services,Claims Rejected,Number of claims that were submitted to the organization but rejected during the reporting period.,Metric,Flow,Number of claims
+PI8018,Product Impact,Quality & Performance,Financial Services,Claims Submitted,Number of claims submitted to the organization during the reporting period.,Metric,Flow,Number of claims
+PI5216,Product Impact,Quality & Performance,Financial Services,Complaints Ratio,Percent of complaints registered  by clients of the reporting organization relative to the total number of clients during the reporting period. ,Metric,Flow,Decimal
+PI2197,Product Impact,Quality & Performance,Financial Services,Number of Complaints Registered,The number of complaints registered by clients of the reporting organization during the reporting period.,Metric,Flow,Number of complaints
+FP6152,Financial Performance,Ratios  Concepts  and Calculations,Financial Services,Solvency Ratio,Ratio of an organization's admitted assets to admitted liabilities  per an organization’s statutory accounts   as of the end of the reporting period. ,Metric,Stock,Decimal
+OI5323,Operational Impact,Employees,Health,Caregivers Employed: Total,Number of caregivers  with current licenses  certifications  or trainings based on local requirements  employed by the organization as of the end of the reporting period. ,Metric,Stock,Number of people
+OI4919,Operational Impact,Employees,Health,Caregivers Employed: Professionals,Number of caregiver professionals  with current licenses or certifications based on local requirements  employed by the organization as of the end of the reporting period.,Submetric,Stock,Number of people
+PI1017,Product Impact,Quality & Performance,Health,Healthcare Facilities,Number of healthcare units/facilities under the organization's management as of the end of the reporting period.,Metric,Stock,Number of facilities
+PI3902,Product Impact,Quality & Performance,Health,Health Intervention Completion Rate,"Percentage of the organization's clients  or patients  who successfully complete the course of a health intervention. Successful completion means that all required steps were completed and taken in the appropriate timeframe  and that the treatment adhered to local protocols. 
+
+Report the number of clients that completed treatment as a percentage of the number of clients who were expected to complete the treatment program during the reporting period.
+
+Organizations should footnote the expected timeframe and clinical protocols that define a completed treatment.",Metric,Flow,Decimal
+PI5743,Product Impact,Quality & Performance,Health,Critical Equipment/Facility Utilization Rate,"Utilization rate of identified critical equipment/facility during the reporting period.  
+
+Organizations should footnote the specific critical equipment described and calculation assumptions.",Metric,Flow,Decimal
+PI3863,Product Impact,Quality & Performance,Health,Quality Assurance Mechanism,"Quality assurance mechanisms that may be in place. Choose all that apply:
+- Peer review/supervision
+- Audit and feedback
+- Checklists and logs
+- Electronic monitoring systems
+- Communication an education strategies
+- Guidelines  protocols and registries
+- Other (footnote)",Metric,Stock,Selection
+PI1533,Product Impact,Quality & Performance,Health,Disease/Condition Addressed,"Diseases/conditions addressed by the organization's products or services  provided during the reporting period. Choose all that apply: 
+
+General: Primary Care
+General: Acute or Emergency Care
+Specific: Infectious and parasitic diseases
+Specific: Infections and parasitic diseases: Tuberculosis
+Specific: Infections and parasitic diseases: HIV/AIDS
+Specific: Infections and parasitic diseases: Diarrheal diseases
+Specific: Infections and parasitic diseases: Childhood cluster diseases
+Specific: Infections and parasitic diseases: Malaria
+Specific: Infections and parasitic diseases: Tropical-cluster diseases
+Specific: Respiratory infections
+Specific: Maternal conditions
+Specific: Prenatal period
+Specific: Nutritional deficiencies
+Specific: Malignant neoplasms (cancer)
+Specific: Other neoplasms
+Specific: Diabetes mellitus
+Specific: Endocrine disorders
+Specific: Neuropsychiatric conditions
+Specific: Sense organ diseases
+Specific: Cardiovascular diseases
+Specific: Respiratory diseases
+Specific: Digestive diseases
+Specific: Genitourinary diseases
+Specific: Skin diseases
+Specific: Musculoskeletal diseases
+Specific: Congenital anomalies
+Specific: Oral conditions
+Specific: Unintentional injuries
+Specific: Unintentional injuries: Traffic accidents
+Specific: Intentional injuries
+
+Sources: World Health Organization 2004 Global Burden of Disease Report http://www.who.int/healthinfo/global_burden_disease/2004_report_update/en/ and Disease Control Priorities Network http://www.dcp-3.org/ ",Metric,Flow,Selection
+PD7557,Product Description,Product/Service Information,Housing/Community Facilities,Community Facilities Type,"Type of community development facilities projected to be built  renovated  or purchased as a result of investments made by the organization the during reporting period.  Choose all that apply:
+-  Childcare 
+-  Education 
+-  Healthcare
+-  Other (footnote)",Metric,Flow,Selection
+PD2532,Product Description,Product/Service Information,Housing/Community Facilities,Housing Type,"Type of housing units projected to be constructed or preserved as a result of investments made by the organization the during reporting period. Choose all that apply:
+-  Rent 
+-  Sale 
+-  Other ",Metric,Flow,Selection
+PD1007,Product Description,Product/Service Information,Housing/Community Facilities,Setting of Housing/Community Facilities,"Setting of community development facilities or housing units projected to be constructed or preserved as a result of investments made by the organization during the reporting period. Choose all that apply:
+-  Urban 
+-  Rural 
+-  Peri-urban
+-  Other (footnote)",Metric,Flow,Selection
+PD5833,Product Description,Product/Service Information,Housing/Community Facilities,Percent Affordable Housing,"Percentage of housing units projected to be constructed or preserved  as a result of investments made by the organization during the reporting period that will be considered to be affordable housing.
+
+Organizations should footnote the assumptions used when defining affordable housing.",Metric,Flow,Decimal
+PI2640,Product Impact,Client Information,Housing/Community Facilities,Individuals Housed,Number of individuals projected to be housed in single-family or multi-family dwellings as a result of new construction  loans  repairs  or remodeling resulting from investments made by the organization during the reporting period.,Metric,Flow,Number of people
+PI2491,Product Impact,Product/Service Information,Housing/Community Facilities,Number of Housing Units Constructed,Number of housing units constructed by the organization during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+PI6058,Product Impact,Product/Service Information,Housing/Community Facilities,Number of Housing Units Improved,Number of housing units improved or refurbished by the organization during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+PI1586,Product Impact,Quality & Performance,Housing/Community Facilities,Energy Efficiency Improvements,Area of buildings projected to receive energy efficiency improvements as a result of investments made by the organization during the reporting period. ,Metric,Flow,Number of square feet or square meters 
+PI4009,Product Impact,Quality & Performance,Housing/Community Facilities,Energy Saved/Conserved,Amount (estimated) of energy conserved as a result of energy-efficient construction/renovation investments made by the organization during the reporting period.,Metric,Flow,Number of kWh
+PI9170,Product Impact,Quality & Performance,Housing/Community Facilities,Area of Buildings Reused,Area of buildings projected to be renovated/remodeled that qualify for reuse as a result of investments made by the organization during the reporting period.  ,Metric,Flow,Number of square feet or square meters 
+PI5965,Product Impact,Quantity & Reach,Housing/Community Facilities,Number of Housing Units Financed,Number of housing units projected to be constructed or preserved  as a result of investments made by the organization during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+PI7233,Product Impact,Quantity & Reach,Housing/Community Facilities,Value of Housing Units Financed,Value of housing units projected to be constructed or preserved as a result of investments made by the organization during the reporting period. ,Metric,Flow,Reporting Currency (OD5990)
+PI8007,Product Impact,Quantity & Reach,Housing/Community Facilities,Number of Community Facilities Financed,Number of community development facilities projected to be built  renovated  or purchased  as a result of investments made by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI2410,Product Impact,Quantity & Reach,Housing/Community Facilities,Value of Community Facilities Financed,Value of community development facilities projected to be built  renovated  or purchased  as a result of investments made by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PI4765,Product Impact,Quantity & Reach,Housing/Community Facilities,Area of Community Facilities Financed,Area of community facilities projected to be constructed or preserved as a result of investments made by the organization during the reporting period.,Metric,Flow,Number of square feet or square meters 
+PI5983,Product Impact,Quantity & Reach,Housing/Community Facilities,Value of Commercial or Retail Infrastructure Financed,Value of commercial or retail infrastructure projected to be built or renovated as a result of investments made by the organization during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PD9009,Product Description,Product/Service Information,Land Conservation,Conservation Priority Characteristics,"Indicate the primary characteristics of hectares directly or indirectly controlled  during the reporting period  that are desirable to maintain or enhance through protection  restoration  or sustainable stewardship. (Select all that apply):
+
+Ecology and Habitat
+- Wilderness  or wilderness-quality lands (biologically/ecologically intact ecosystems   free of significant human intervention) 
+- Significant biodiversity 
+- Critical habitat for endangered or vulnerable species
+- Wildlife habitat
+- Land with shared boundaries to existing protected land  to increase conservation assemblage or create buffer areas
+
+Public / Human Use
+- Park  land for community recreation  and access to public lands
+- Natural or cultural features of outstanding/unique value  because of rarity  representativeness  aesthetic qualities or cultural significance (e.g. waterfalls  distinct scenic landscapes  geological features  cave dwellings  natural pilgrimage sites)
+- Open space
+- Working lands  specifically land for traditional activities related to the sustainable use of natural resources  including agriculture  timber  and ranching
+- Scientific value (research reserves  field stations  etc.)
+
+Ecosystem Services
+- Land that provides basic ecosystem services in critical situations (e.g.  watershed function  flood control) 
+- Land providing other ecosystem services (regulating values/services  supporting values/services  provisioning values/services  and/or cultural values/services). 
+",Metric,Flow,Selection
+PD3922,Product Description,Product/Service Information,Land Conservation,Type of Land Area,"Type(s) of land present on hectares directly or indirectly controlled by the organization. Report for hectares controlled at any point during the reporting period. (Select all that apply):
+-Urban/Built-up Land
+-Agricultural Land
+-Rangeland
+-Forest Land
+-Water Areas 
+-Wetland
+-Barren Land
+-Tundra
+-Perennial Snow or Ice
+
+",Metric,Flow,Selection
+PD8494,Product Description,Product/Service Information,Land Conservation,Ecosystem Services,"The ecosystem services provided by land during the reporting period. Report for hectares directly or indirectly controlled during the reporting period. (Select all that apply):
+
+Provisioning Values/Services
+- Food
+- Biological raw materials
+- Biomass fuel
+- Freshwater
+- Genetic resources
+- Biochemical's  natural medicines  pharmaceuticals
+
+Regulating Values/Services
+- Maintenance of air quality
+- Regulation of climate
+- Regulation of water timing and flows
+- Erosion control
+- Water purification and waste treatment
+- Disease mitigation
+- Maintenance of soil quality
+- Pest mitigation
+- Pollination
+- Natural hazard mitigation
+
+Supporting Values/Services
+- Habitat
+- Nutrient cycling
+- Primary production
+- Water cycling
+
+Cultural Values/Services
+- Recreation and ecotourism
+- Ethical and spiritual values
+- Educational and inspirational values
+
+Organizations should footnote specific details around the selections. 
+",Metric,Flow,Selection
+PI7170,Product Impact,Quality and Performance,Land Conservation,Fresh Water Bodies Present,"Surface area in hectares of freshwater bodies present during the reporting period on protected land  land under sustainable stewardship  or land under sustainable cultivation.
+
+",Metric,Flow,Number of hectares
+PI3239,Product Impact,Quality and Performance,Land Conservation,Streams Present,"Length of freshwater streams present during the reporting period on protected land  land under sustainable stewardship  or land under sustainable cultivation.
+
+",Metric,Flow,Unit of Measure (PD1602)
+PI5840,Product Impact,Quality and Performance,Land Conservation,Coastline Present,"Length of marine or freshwater coastline present during the reporting period on protected land  land under sustainable stewardship  or land under sustainable cultivation.
+",Metric,Flow,Unit of Measure (PD1602)
+PI4716,Product Impact,Quality and Performance,Land Conservation,Protected Land Area: Total,"Number of hectares with a status of protected land during the reporting period. 
+
+Organizations should footnote the mechanisms used to ensure protection. 
+",Metric,Flow,Number of hectares
+PI3924,Product Impact,Quality and Performance,Land Conservation,Protected Land Area: Permanent,"Number of hectares with a status of permanently protected land during the reporting period. 
+
+Organizations should footnote the mechanisms used to ensure protection. ",Submetric,Flow,Number of hectares
+PI9556,Product Impact,Quality and Performance,Land Conservation,Ecological Restoration Management Area,"Hectares under ecological restoration management during the reporting period. Include both hectares directly controlled and hectares indirectly controlled by the organization. 
+
+Organizations should footnote relevant ecological restoration activities undertaken during the reporting period. ",Metric,Flow,Number of hectares
+PI6885,Product Impact,Quality and Performance,Land Conservation,Streams Restored,Length of freshwater streams under ecological restoration management on protected land  land under sustainable stewardship  or land under sustainable cultivation during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+PI2538,Product Impact,Quality and Performance,Land Conservation,Coastline Restored,Length of marine or freshwater coastline under ecological restoration management on protected land  land under sustainable stewardship  or land under sustainable cultivation during the reporting period.,Metric,Flow,Unit of Measure (PD1602)
+PI2135,Product Impact,Quality and Performance,Land Conservation,Protected Land Adjacency,"Length of protected land boundary shared with other protected land  as of the end of the reporting period. 
+",Metric,Stock,Unit of Measure (PD1602)
+PI5750,Product Impact,Quality and Performance,Land Conservation,Protected Land Assemblage Total Area,Number of hectares of contiguous protected land areas  as of the end of the reporting period. ,Metric,Stock,Number of hectares
+PI3180,Product Impact,Quantity & Reach,Land Conservation,Revenue Generated at Directly Supported Enterprises ,Revenue generated by enterprises operating on hectares indirectly controlled by the organization that are under sustainable stewardship. Report revenue generated by the enterprises during the reporting period.,Metric,Flow,Reporting Currency (OD5990)
+PD6052,Product Description,Product/Service Information,Water,Water Production Capacity of Product: Total,"Volume of potential water production capacity over the lifetime of the product based on the planned operation of the product/system. 
+
+Organizations should footnote the calculation assumptions when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+PD6929,Product Description,Product/Service Information,Water,Water Production Capacity of Product: Potable,"Volume of potential potable water production capacity over the lifetime of the product based on the planned operation of the product/system. 
+
+Organizations should footnote the calculation assumptions when reporting against this metric.",Submetric,Flow,Unit of Measure (PD1602)
+PD8586,Product Description,Product/Service Information,Water,Wastewater Treated Capacity of Product,"Volume of potential wastewater treated over the lifetime of the product based on the planned operation of the product/system. 
+
+Organizations should footnote the calculation assumptions when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+PD3931,Product Description,Product/Service Information,Water,Water Consumption of Product,"Average volume of water utilization/consumption over the lifetime of the product based on the planned operation of the product/system. 
+
+Organizations should footnote assumptions made with respect to product consumption.",Metric,Flow,Unit of Measure (PD1602)
+PD7621,Product Description,Product/Service Information,Water,Water Consumption of Product Replaced,"Average volume of water that would have been consumed by the replaced product during the lifetime of the organization's product. 
+
+Organizations should footnote the product replaced  source for product utilization information and other calculation assumptions.",Metric,Flow,Unit of Measure (PD1602)
+PD2020,Product Description,Product/Service Information,Water,Water Production Capacity of Products Sold: Total,"Volume of potential water produced over the lifetime of the product  for all products sold during the reporting period. 
+
+Organizations should footnote calculation assumptions when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+PD1403,Product Description,Product/Service Information,Water,Water Production Capacity of Products Sold: Potable,"Volume of potential potable water produced over the lifetime of the product  for all products sold during the reporting period. 
+
+Organizations should footnote calculation assumptions when reporting against this metric.",Submetric,Flow,Unit of Measure (PD1602)
+PD3523,Product Description,Product/Service Information,Water,Wastewater Treated Capacity of Products Sold,"Volume of potential wastewater treated over the lifetime of the product  for all products sold during the reporting period. 
+
+Organizations should footnote the calculation assumptions when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+PD5786,Product Description,Product/Service Information,Water,Water Savings from Products Sold,"Amount of water savings over the lifetime of the organization's products for products that were sold during the reporting period. 
+
+Organizations should footnote the energy type(s) and calculation assumptions used when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+PI9468,Product Impact,Quality & Performance,Water,Water Produced for Service Sale: Total,"Volume of water produced and delivered to offtaker(s) during the reporting period. 
+
+Organizations should footnote the calculation assumptions used when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+PI8043,Product Impact,Quality & Performance,Water,Water Produced for Service Sale: Potable,"Volume of potable water produced and delivered to offtaker(s) during the reporting period. 
+
+Organizations should footnote the calculation assumptions used when reporting against this metric.",Submetric,Flow,Unit of Measure (PD1602)
+PI2884,Product Impact,Quality & Performance,Water,Water Savings from Services,"Amount of water savings over the course of the reporting period due to the organization’s services. 
+
+Organizations should footnote the energy type(s) and calculation assumptions used when reporting against this metric.",Metric,Flow,Unit of Measure (PD1602)
+OD3292,Organizational Description,Governance & Ownership,Cross-Sector,Board of Directors Remuneration,Indicate whether the members of the board of directors or governing body of the reporting organizations receive compensation from the reporting organization. ,Metric,Stock,Yes/No
+OD7212,Organizational Description,Impact Objectives,Cross-Sector,Target Beneficiary Entity ,"Indicate which entities the organization seeks to benefit via its products/services/operations: Select all that apply: 
+- Clients/Customers
+- Suppliers
+- Distributors
+- Employees
+- Environment",Metric,Stock,Selection
+OD7900,Organizational Description,Impact Objectives,Cross-Sector,Relationship to Target Beneficiary Entity,Describe the types of intermediaries (if any) that link the organization to the target beneficiaries of its products and services.,Metric,Stock,Text
