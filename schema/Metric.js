@@ -8,12 +8,7 @@ exports = module.exports = function(app, mongoose) {
     metricSector: String,
     metricName: String,
     definition: String,
-    // calculation: String,
-    // usageGuidance: String,
-    // citation: String,
     metricType: String,
-    // relatedMetrics: String,
-    // metricLevel: String,
     metricQuantityType: String,
     reportingFormat: String
   });

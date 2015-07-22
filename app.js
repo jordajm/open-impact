@@ -63,17 +63,17 @@ var csrfValue = function(req) {
     || (req.headers['x-xsrf-token']);
   return token;
 };
-app.use(csrf({ value: csrfValue }));
+// app.use(csrf({ value: csrfValue }));
 helmet(app);
 
 //response locals
-app.use(function(req, res, next) {
-  res.cookie('XSRF-TOKEN', req.csrfToken());
-  res.locals.user = {};
-  res.locals.user.defaultReturnUrl = req.user && req.user.defaultReturnUrl();
-  res.locals.user.username = req.user && req.user.username;
-  next();
-});
+// app.use(function(req, res, next) {
+//   res.cookie('XSRF-TOKEN', req.csrfToken());
+//   res.locals.user = {};
+//   res.locals.user.defaultReturnUrl = req.user && req.user.defaultReturnUrl();
+//   res.locals.user.username = req.user && req.user.username;
+//   next();
+// });
 
 //global locals
 app.locals.projectName = app.config.projectName;
@@ -93,31 +93,44 @@ app.utility.sendmail = require('./util/sendmail');
 app.utility.slugify = require('./util/slugify');
 app.utility.workflow = require('./util/workflow');
 
-var metricsList = fs.readFileSync('allIrisMetrics.csv').toString().split('\r\n');
-// console.log(metricsList);
 
-var metricsArr = [];
-var metricsListLen = metricsList.length;
-for(var i = 0; i < metricsListLen; i++){
-  var thisMetric = metricsList[i].split(',');
-  metricsArr[i] = {
-    metricId: thisMetric[0],
-    metricSection: thisMetric[1],
-    metricSubsection: thisMetric[2],
-    metricSector: thisMetric[3],
-    metricName: thisMetric[4],
-    definition: thisMetric[5],
-    metricType: thisMetric[6],
-    metricQuantityType: thisMetric[7],
-    reportingFormat: thisMetric[8]
-  };
-}
+/*
+=============================================================
+To init a new DB, uncomment this code and run app.js one time.
+This will load all Iris Metrics data into the DB from
+allIrisMetrics.csv.
+=============================================================
+*/
+// var metricsList = fs.readFileSync('allIrisMetrics.csv').toString().split('\r\n');
+// // console.log(metricsList);
 
-app.db.models.Metric.create(metricsArr, function(err) {
-  if (err) {
-    console.log("error importing Iris Metric. err = ", err);
-  }
-});
+// var metricsArr = [];
+// var metricsListLen = metricsList.length;
+// for(var i = 0; i < metricsListLen; i++){
+//   var thisMetric = metricsList[i].split(',');
+//   metricsArr[i] = {
+//     metricId: thisMetric[0],
+//     metricSection: thisMetric[1],
+//     metricSubsection: thisMetric[2],
+//     metricSector: thisMetric[3],
+//     metricName: thisMetric[4],
+//     definition: thisMetric[5],
+//     metricType: thisMetric[6],
+//     metricQuantityType: thisMetric[7],
+//     reportingFormat: thisMetric[8]
+//   };
+// }
+
+// app.db.models.Metric.create(metricsArr, function(err) {
+//   if (err) {
+//     console.log("error importing Iris Metric. err = ", err);
+//   }
+// });
+/*
+=============================================================
+End: Iris Metrics init code.
+=============================================================
+*/
 
 //listen up
 app.server.listen(app.config.port, function(){

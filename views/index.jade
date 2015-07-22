@@ -1,3 +1,32 @@
 block body
   h1 Open Impact Project
-   
+  br
+  h3 Create Org
+  form(method="post" action="/org")
+    input(name="orgName" placeholder="Org Name")
+    select(name="orgType")
+        option(value="company") Company
+        option(value="fundManager") Fund Manager
+        option(value="nonProfit") Non Profit
+    button(type="submit") Create Org
+    
+  br
+  h3 Add Metric To Org
+  form(method="post" action="/metrics")
+    input(name="orgAPIKey" placeholder="Org API Key")
+    select(name="metricId")
+        option(value="55aead320cd16ba24fcb4857") Client Individuals: Rural
+        option(value="55aead320cd16ba24fcb485c") Client Individuals: Children/Adolescents
+        option(value="55aead320cd16ba24fcb4866") Client Households: Low Income
+    button(type="submit") Add Metric To Org
+    
+  br
+  h3 Create Report (this no longer works b/c the node code now expects an array of metrics)
+  form(method="post" action="/report/lel9p64")
+    select(name="metricId")
+        option(value="55aead320cd16ba24fcb4857") Client Individuals: Rural
+        option(value="55aead320cd16ba24fcb485c") Client Individuals: Children/Adolescents
+        option(value="55aead320cd16ba24fcb4866") Client Households: Low Income
+    input(name="metricValue" placeholder="Metric Value")
+    input(name="note" placeholder="Note")
+    button(type="submit") Create Report
