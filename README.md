@@ -12,7 +12,7 @@ Open a second terminal and type:
 $ mongo
 It should respond: "connecting to: test"
 Then, type:
-$ use impacttraderdb
+$ use openimpactdb
 It should respond: switched to db openimpactdb
 
 Step 3: 
