@@ -13,7 +13,8 @@ var config = require('./config'),
     passport = require('passport'),
     mongoose = require('mongoose'),
     helmet = require('helmet'),
-    csrf = require('csurf');
+    csrf = require('csurf'),
+    cors = require('cors');
 
 //create express app
 var app = express();
@@ -35,36 +36,37 @@ app.db.once('open', function () {
 require('./models')(app, mongoose);
 
 //settings
-app.disable('x-powered-by');
+// app.disable('x-powered-by');
 app.set('port', config.port);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 //middleware
+app.use(cors());
 app.use(require('morgan')('dev'));
 app.use(require('compression')());
 app.use(require('serve-static')(path.join(__dirname, 'public')));
-app.use(require('method-override')());
+// app.use(require('method-override')());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser(config.cryptoKey));
-app.use(session({
-  resave: true,
-  saveUninitialized: true,
-  secret: config.cryptoKey,
-  store: new mongoStore({ url: config.mongodb.uri })
-}));
-app.use(passport.initialize());
-app.use(passport.session());
-var csrfValue = function(req) {
-  var token = (req.body && req.body._csrf)
-    || (req.query && req.query._csrf)
-    || (req.headers['x-csrf-token'])
-    || (req.headers['x-xsrf-token']);
-  return token;
-};
+// app.use(session({
+//   resave: true,
+//   saveUninitialized: true,
+//   secret: config.cryptoKey,
+//   store: new mongoStore({ url: config.mongodb.uri })
+// }));
+// app.use(passport.initialize());
+// app.use(passport.session());
+// var csrfValue = function(req) {
+//   var token = (req.body && req.body._csrf)
+//     || (req.query && req.query._csrf)
+//     || (req.headers['x-csrf-token'])
+//     || (req.headers['x-xsrf-token']);
+//   return token;
+// };
 // app.use(csrf({ value: csrfValue }));
-helmet(app);
+// helmet(app);
 
 //response locals
 // app.use(function(req, res, next) {
@@ -82,7 +84,7 @@ app.locals.copyrightName = app.config.companyName;
 app.locals.cacheBreaker = 'br34k-01';
 
 //setup passport
-require('./passport')(app, passport);
+// require('./passport')(app, passport);
 
 //setup routes
 require('./routes')(app, passport);
