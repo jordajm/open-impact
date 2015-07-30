@@ -13,14 +13,14 @@ exports.getOrgList = function(req, res, next){
 };
 
 exports.createOrg = function(req, res, next){
-  var ObjectID = require('mongodb').ObjectID,
-  newOrgId = new ObjectID(req.body.orgId);
+  // var ObjectID = require('mongodb').ObjectID,
+  // newOrgId = new ObjectID(req.body.orgId);
   
   // Generate a random 7 character string with lowercase letters and numbers 0-9
   var newAPIKey = Math.random().toString(36).substr(2, 7);
   
   var fieldsToSet = {
-    _id: newOrgId,
+    _id: req.body.orgId,
     orgName: req.body.orgName,
     orgAPIKey: newAPIKey,
     orgType: req.body.orgType
@@ -28,6 +28,7 @@ exports.createOrg = function(req, res, next){
   req.app.db.models.Org.create(fieldsToSet, function(err) {
     if (err) {
       console.log('err: ', err);
+      console.log('req.body = ', req.body);
       return res.send(500, err).end();
     }
     
