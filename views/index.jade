@@ -34,7 +34,8 @@ block body
   h3 API Documentation
   ul
     li GET    /metrics/            | Returns a list of all IRIS metrics and basic data for each
-    li POST   /metrics/            | Adds a Metric to an Org. Body of POST must contain "orgAPIKey" and "metricId"
+    li POST   /metrics/            | Adds a Metric to an Org. Body of POST must contain "orgLink" and "metricId"
+    li DELETE   /metrics/          | Removes a Metric to an Org. Body of POST must contain "orgLink" and "metricId"
     li GET    /org/                | Returns a list of all Orgs
     li POST   /org/                | Creates a new Org. Body of POST must contain "orgId", "orgName" and "orgType". Also generates Org's API Key.
     li GET    /org/:orgLink/            | Returns an Org's full JSON object, including full Tracked Metrics and Reports data

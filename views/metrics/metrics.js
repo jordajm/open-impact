@@ -13,8 +13,6 @@ exports.getIrisMetrics = function(req, res, next){
 };
 
 exports.addMetricToOrg = function(req, res, next){
-  var ObjectID = require('mongodb').ObjectID;
-
   var orgQuery = { orgLink: req.body.orgLink };
   var orgUpdate = { $push: { orgIrisMetricIds: req.body.metricId } };
   var orgOptions = {};
@@ -24,5 +22,16 @@ exports.addMetricToOrg = function(req, res, next){
     }
     res.send(200).end();
   });
-  
+};
+
+exports.removeMetricFromOrg = function(req, res, next){
+  var orgQuery = { orgLink: req.body.orgLink };
+  var orgUpdate = { $pull: { orgIrisMetricIds: req.body.metricId } };
+  var orgOptions = {};
+  req.app.db.models.Org.findOneAndUpdate(orgQuery, orgUpdate, orgOptions, function(err) {
+    if (err) {
+      return res.send(500, err).end();
+    }
+    res.send(200).end();
+  });
 };
