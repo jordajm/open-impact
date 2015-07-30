@@ -18,10 +18,10 @@ exports.createOrg = function(req, res, next){
   var newAPIKey = Math.random().toString(36).substr(2, 7);
   
   var fieldsToSet = {
-    _id: req.body.formData.orgId,
-    orgName: req.body.formData.orgName,
+    _id: req.body.orgId,
+    orgName: req.body.orgName,
     orgAPIKey: newAPIKey,
-    orgType: req.body.formData.orgType
+    orgType: req.body.orgType
   };
   req.app.db.models.Org.create(fieldsToSet, function(err) {
     if (err) {
