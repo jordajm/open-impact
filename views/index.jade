@@ -36,7 +36,7 @@ block body
     li GET    /metrics/            | Returns a list of all IRIS metrics and basic data for each
     li POST   /metrics/            | Adds a Metric to an Org. Body of POST must contain "orgAPIKey" and "metricId"
     li GET    /org/                | Returns a list of all Orgs
-    li POST   /createOrg/          | Creates a new Org. Body of POST must contain "orgName" and "orgType". Also generates Org's API Key.
+    li POST   /org/                | Creates a new Org. Body of POST must contain "orgId", "orgName" and "orgType". Also generates Org's API Key.
     li DELETE /org/:id/            | Deletes an Org.
     li GET    /report/:reportId/   | Returns a report using the report's ID.
     li GET    /reportList/:apiKey/ | Returns a list of all Reports for a given Org using the Org's API Key.

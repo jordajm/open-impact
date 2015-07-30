@@ -18,6 +18,7 @@ exports.createOrg = function(req, res, next){
   var newAPIKey = Math.random().toString(36).substr(2, 7);
   
   var fieldsToSet = {
+    _id: req.body.orgId,
     orgName: req.body.orgName,
     orgAPIKey: newAPIKey,
     orgType: req.body.orgType
