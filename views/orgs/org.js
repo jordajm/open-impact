@@ -31,7 +31,7 @@ exports.createOrg = function(req, res, next){
       return res.send(500, err).end();
     }
     
-    console.log('fields received from POST to /org/: ',fieldsToSet)
+    console.log('fields received from POST to /org/: ', req.body);
     res.send(200).end();
   });
   
