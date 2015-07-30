@@ -27,10 +27,11 @@ exports.createOrg = function(req, res, next){
   };
   req.app.db.models.Org.create(fieldsToSet, function(err) {
     if (err) {
-      console.log(err);
+      console.log('err: ', err);
       return res.send(500, err).end();
     }
-
+    
+    console.log('fields received from POST to /org/: ',fieldsToSet)
     res.send(200).end();
   });
   
