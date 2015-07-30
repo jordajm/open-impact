@@ -8,7 +8,7 @@ exports = module.exports = function(app, passport) {
   //Metrics
   app.get('/metrics/', require('./views/metrics/metrics').getIrisMetrics);
   app.post('/metrics/', require('./views/metrics/metrics').addMetricToOrg);
-  app.delete('/metrics/', require('./views/metrics/metrics').removeMetricFromOrg);
+  app.post('/metrics/remove/', require('./views/metrics/metrics').removeMetricFromOrg);
   
   //Orgs
   app.get('/org/', require('./views/orgs/org').getOrgList);
