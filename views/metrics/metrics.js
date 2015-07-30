@@ -15,7 +15,7 @@ exports.getIrisMetrics = function(req, res, next){
 exports.addMetricToOrg = function(req, res, next){
   var ObjectID = require('mongodb').ObjectID;
 
-  var orgQuery = { orgAPIKey: req.body.orgAPIKey };
+  var orgQuery = { orgLink: req.body.orgLink };
   var orgUpdate = { $push: { orgIrisMetricIds: req.body.metricId } };
   var orgOptions = {};
   req.app.db.models.Org.findOneAndUpdate(orgQuery, orgUpdate, orgOptions, function(err) {
