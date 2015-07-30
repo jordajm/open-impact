@@ -17,7 +17,7 @@ exports.getOrgData = function(req, res){
   var orgDataObj = {};
   
   workflow.on('getOrg', function() {
-    req.app.db.models.Org.findOne({ 'orgLink': req.params.orgLink }, function (err, org) {
+    req.app.db.models.Org.findOne({ orgLink: req.params.orgLink }, function (err, org) {
       if (err) {
         return res.send(500, err);
       }
@@ -42,7 +42,7 @@ exports.getOrgData = function(req, res){
         return res.send(500, err);
       }
       orgDataObj.reports = reportList;
-      res.send(200);
+      res.send(JSON.stringify(orgDataObj));
     });
   });
   
