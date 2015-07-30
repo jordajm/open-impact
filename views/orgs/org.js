@@ -17,10 +17,10 @@ exports.createOrg = function(req, res, next){
   // newOrgId = new ObjectID(req.body.orgId);
   
   // Generate a random 7 character string with lowercase letters and numbers 0-9
-  var newAPIKey = Math.random().toString(36).substr(2, 7);
+  var newAPIKey = Math.random().toString(36).substr(2, 24);
   
   var fieldsToSet = {
-    _id: req.body.orgId,
+    orgLink: req.body.firmLink,
     orgName: req.body.orgName,
     orgAPIKey: newAPIKey,
     orgType: req.body.orgType
