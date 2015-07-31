@@ -2,12 +2,14 @@
 
 exports = module.exports = function(app, mongoose) {
   var reportSchema = new mongoose.Schema({ 
-    reportDate: { type : Date, default: Date.now },
+    timestamp: { type : Date, default: Date.now },
     metricsData: [{
-      _id: String,
-      metricValue: String,
-      note: String
-    }]
+      metricId: String,
+      metricName: String,
+      reportedValue: String,
+    }],
+    reportTimeframe: String,
+    reportYear: String
   });
   
   app.db.model('Report', reportSchema);

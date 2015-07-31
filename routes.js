@@ -19,7 +19,7 @@ exports = module.exports = function(app, passport) {
   //Reports
   app.get('/report/:reportId/', require('./views/reports/report').getReport);
   app.get('/reportList/:apiKey/', require('./views/reports/report').getOrgReportList);
-  app.post('/report/:apiKey/', require('./views/reports/report').createReport);
+  app.post('/report/', require('./views/reports/report').createReport);
   app.delete('/report/:reportId/', require('./views/reports/report').deleteReport);
   
 };

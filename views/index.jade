@@ -42,5 +42,5 @@ block body
     li DELETE /org/:id/            | Deletes an Org.
     li GET    /report/:reportId/   | Returns a report using the report's ID.
     li GET    /reportList/:apiKey/ | Returns a list of all Reports for a given Org using the Org's API Key.
-    li POST   /report/:apiKey/     | Creates a report for an Org. Body must contain "metricId" and "metricValue" and may contain "note"
+    li POST   /report/             | Creates a report for an Org. Body must contain "orgLink" and appropriate report data
     li DELETE /report/:reportId/   | Deletes a report and removes it from the Org's array of reports.

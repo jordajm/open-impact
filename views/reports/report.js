@@ -41,19 +41,12 @@ exports.createReport = function(req, res, next){
   var newReportId = new ObjectID();
   
   workflow.on('createReport', function(){
-    var metricsArray = [];
-    var metricsLen = req.body.reportedMetrics.length;
-    for(var i = 0; i < metricsLen; i++){
-      metricsArray[i] = {
-        _id: req.body.reportedMetrics[i].metricId,
-        metricValue: req.body.reportedMetrics[i].metricValue,
-        note: req.body.reportedMetrics[i].note
-      };
-    }
     
     var fieldsToSet = {
       _id: newReportId,
-      metricsData: metricsArray
+      metricsData: req.body.metricsData,
+      reportTimeframe: req.body.timeframe,
+      reportYear: req.body.year
     };
     req.app.db.models.Report.create(fieldsToSet, function(err) {
       if (err) {
@@ -65,7 +58,7 @@ exports.createReport = function(req, res, next){
   
   workflow.on('addReportToOrg', function(){
 
-    var orgQuery = { orgAPIKey: req.params.apiKey };
+    var orgQuery = { orgLink: req.body.orgLink };
     var orgUpdate = { $push: { orgImpactReportIds: newReportId } };
     var orgOptions = {};
     req.app.db.models.Org.findOneAndUpdate(orgQuery, orgUpdate, orgOptions, function(err) {
