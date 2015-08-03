@@ -2,7 +2,7 @@
 
 exports = module.exports = function(app, mongoose) {
   var reportSchema = new mongoose.Schema({ 
-    timestamp: { type : Date, default: Date.now },
+    timestamp: Number,  // Saving as milliseconds to make sorting by timestamp on the front end easier
     metricsData: [{
       metricId: String,
       metricName: String,

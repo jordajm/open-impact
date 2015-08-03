@@ -47,7 +47,8 @@ exports.createReport = function(req, res, next){
       metricsData: req.body.metricsData,
       reportTimeframe: req.body.timeframe,
       reportYear: req.body.year,
-      content: req.body.content
+      content: req.body.content,
+      timestamp: new Date().getTime()
     };
     req.app.db.models.Report.create(fieldsToSet, function(err) {
       if (err) {
