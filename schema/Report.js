@@ -9,7 +9,8 @@ exports = module.exports = function(app, mongoose) {
       reportedValue: String,
     }],
     reportTimeframe: String,
-    reportYear: String
+    reportYear: String,
+    content: String
   });
   
   app.db.model('Report', reportSchema);
