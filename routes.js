@@ -13,6 +13,7 @@ exports = module.exports = function(app, passport) {
   //Orgs
   app.get('/org/', require('./views/orgs/org').getOrgList);
   app.get('/org/:orgLink/', require('./views/orgs/org').getOrgData);
+  app.put('/org/', require('./views/orgs/org').getOrgArray);
   app.post('/org/', require('./views/orgs/org').createOrg);
   app.delete('/org/:id/', require('./views/orgs/org').deleteOrg);
   
