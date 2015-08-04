@@ -90,6 +90,7 @@ exports.getOrgArray = function(req, res){
           console.log('======= metricsList = ', metricsList);
           metricsArr.push(metricsList);
           console.log('======= metricsArr = ', metricsArr);
+          callback();
         });
       
       }, function(err){
@@ -113,6 +114,7 @@ exports.getOrgArray = function(req, res){
           console.log(' ======== reportsList = ', reportsList);
           reportsArr.push(reportsList);
           console.log(' ======== reportsArr = ', reportsArr);
+          callback();
         });
       
       }, function(err){
