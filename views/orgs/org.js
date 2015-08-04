@@ -79,7 +79,7 @@ exports.getOrgArray = function(req, res){
   });
   
   workflow.on('getOrgMetrics', function(orgs) {
-
+      console.log('======= orgs = ', orgs);
       async.each(orgs, function(org, callback) {
         
         var thisOrgMetricIds = org.orgIrisMetricIds;
@@ -87,13 +87,16 @@ exports.getOrgArray = function(req, res){
           if (err) {
             return res.send(500, err).end();
           }
+          console.log('======= metricsList = ', metricsList);
           metricsArr.push(metricsList);
+          console.log('======= metricsArr = ', metricsArr);
         });
       
       }, function(err){
           if( err ) {
             return res.send(500, err).end();
           } else {
+            console.log('========== emitting getOrgReports');
             workflow.emit('getOrgReports', orgs);
           }
       });
@@ -107,13 +110,16 @@ exports.getOrgArray = function(req, res){
           if (err) {
             return res.send(500, err).end();
           }
+          console.log(' ======== reportsList = ', reportsList);
           reportsArr.push(reportsList);
+          console.log(' ======== reportsArr = ', reportsArr);
         });
       
       }, function(err){
           if( err ) {
             return res.send(500, err).end();
           } else {
+            console.log(' ======== emitting buildOrgDataObj');
             workflow.emit('buildOrgDataObj');
           }
       });
@@ -124,6 +130,7 @@ exports.getOrgArray = function(req, res){
     for(var i = 0; i < orgDataArrLen; i++){
       orgDataArr[i].trackedMetrics = metricsArr[i];
       orgDataArr[i].reports = reportsArr[i];
+      console.log(' ======== orgDataArr = ', orgDataArr);
       if(i == (orgDataArrLen - 1)){
         res.send(JSON.stringify(orgDataArr));
       }
