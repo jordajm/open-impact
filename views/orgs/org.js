@@ -52,7 +52,10 @@ exports.getOrgData = function(req, res){
 
 exports.getOrgArray = function(req, res){
   var workflow = req.app.utility.workflow(req, res);
-  var orgDataArr = [];
+  var async = require('async');
+  var orgDataArr = [],
+      metricsArr = [],
+      reportsArr = []; 
   
   workflow.on('parseRequest', function(){
     // TODO - use Async library instead of vanilla JS with a stupid setTimeout:
@@ -71,47 +74,59 @@ exports.getOrgArray = function(req, res){
         return res.send(500, err).end();
       }
       orgDataArr.push.apply(orgDataArr, orgs);
-      console.log('========= orgDataArr = ', orgDataArr);
       workflow.emit('getOrgMetrics', orgs);
     });
   });
   
   workflow.on('getOrgMetrics', function(orgs) {
-    console.log('================= orgs = ', orgs);
-    var orgsLen = orgs.length;
-    for(var i = 0; i < orgsLen; i++){
-    console.log('======= i[1] = ', i);
-      var thisOrg = orgs[i];
-      console.log('======= thisOrg = ', thisOrg);
-      req.app.db.models.Metric.find({'metricId': { $in: thisOrg.orgIrisMetricIds } }, function (err, metricsList) {
-        if (err) {
-          return res.send(500, err);
-        }
-        console.log('========== metricsList = ', metricsList);
-        console.log('======== i[2] = ', i);
-        console.log('========= thisOrg = ', thisOrg);
-        orgDataArr[i].trackedMetrics = metricsList;
-        if(i == (orgsLen - 1)){
-          workflow.emit('getOrgReports', orgs);
-        }
+
+      async.each(orgs, function(org, callback) {
+        
+        var thisOrgMetricIds = org.orgIrisMetricIds;
+        req.app.db.models.Metric.find({'metricId': { $in: thisOrgMetricIds } }, function (err, metricsList) {
+          if (err) {
+            return res.send(500, err).end();
+          }
+          metricsArr.push(metricsList);
+        });
+      
+      }, function(err){
+          if( err ) {
+            return res.send(500, err).end();
+          } else {
+            workflow.emit('getOrgReports', orgs);
+          }
       });
-    }
   });
   
   workflow.on('getOrgReports', function(orgs) {
-    var orgsLen = orgs.length;
-    for(var i = 0; i < orgsLen; i++){
-      var thisOrg = orgs[i];
-      req.app.db.models.Report.find({'_id': { $in: thisOrg.orgImpactReportIds } }, function (err, reportList) {
-        if (err) {
-          return res.send(500, err);
-        }
-        orgDataArr[i].reports = reportList;
-        if(i == (orgsLen - 1)){
-          console.log('============= orgDataObj = ', orgDataArr);
-          res.send(JSON.stringify(orgDataArr));
-        }
+    async.each(orgs, function(org, callback) {
+        
+        var thisOrgReportIds = org.orgImpactReportIds;
+        req.app.db.models.Metric.find({'metricId': { $in: thisOrgReportIds } }, function (err, reportsList) {
+          if (err) {
+            return res.send(500, err).end();
+          }
+          reportsArr.push(reportsList);
+        });
+      
+      }, function(err){
+          if( err ) {
+            return res.send(500, err).end();
+          } else {
+            workflow.emit('buildOrgDataObj');
+          }
       });
+  });
+  
+  workflow.on('buildOrgDataObj', function(){
+    var orgDataArrLen = orgDataArr.length;
+    for(var i = 0; i < orgDataArrLen; i++){
+      orgDataArr[i].trackedMetrics = metricsArr[i];
+      orgDataArr[i].reports = reportsArr[i];
+      if(i == (orgDataArrLen - 1)){
+        res.send(JSON.stringify(orgDataArr));
+      }
     }
   });
   
