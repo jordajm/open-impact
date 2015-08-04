@@ -71,6 +71,7 @@ exports.getOrgArray = function(req, res){
         return res.send(500, err).end();
       }
       orgDataArr.push.apply(orgDataArr, orgs);
+      console.log('========= orgDataArr = ', orgDataArr);
       workflow.emit('getOrgMetrics', orgs);
     });
   });
@@ -84,6 +85,7 @@ exports.getOrgArray = function(req, res){
         if (err) {
           return res.send(500, err);
         }
+        console.log('========== metricsList = ', metricsList);
         orgDataArr[i].trackedMetrics = metricsList;
         workflow.emit('getOrgReports', orgs);
       });
