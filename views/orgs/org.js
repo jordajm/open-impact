@@ -86,6 +86,7 @@ exports.getOrgArray = function(req, res){
           return res.send(500, err);
         }
         console.log('========== metricsList = ', metricsList);
+        console.log('======== i = ', i);
         orgDataArr[i].trackedMetrics = metricsList;
         workflow.emit('getOrgReports', orgs);
       });
