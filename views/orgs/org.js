@@ -80,15 +80,20 @@ exports.getOrgArray = function(req, res){
     console.log('================= orgs = ', orgs);
     var orgsLen = orgs.length;
     for(var i = 0; i < orgsLen; i++){
+    console.log('======= i[1] = ', i);
       var thisOrg = orgs[i];
+      console.log('======= thisOrg = ', thisOrg);
       req.app.db.models.Metric.find({'metricId': { $in: thisOrg.orgIrisMetricIds } }, function (err, metricsList) {
         if (err) {
           return res.send(500, err);
         }
         console.log('========== metricsList = ', metricsList);
-        console.log('======== i = ', i);
+        console.log('======== i[2] = ', i);
+        console.log('========= thisOrg = ', thisOrg);
         orgDataArr[i].trackedMetrics = metricsList;
-        workflow.emit('getOrgReports', orgs);
+        if(i == (orgsLen - 1)){
+          workflow.emit('getOrgReports', orgs);
+        }
       });
     }
   });
