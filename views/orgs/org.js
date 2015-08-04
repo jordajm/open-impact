@@ -54,9 +54,19 @@ exports.getOrgArray = function(req, res){
   var workflow = req.app.utility.workflow(req, res);
   var orgDataObj = {};
   
-  workflow.on('getOrgs', function() {
-    console.log('================= req.body = ', req.body);
-    req.app.db.models.Org.find({ orgLink: { $in: req.body.form } }, function (err, orgs) {
+  workflow.on('parseRequest', function(){
+    // TODO - use Async library instead of vanilla JS with a stupid setTimeout:
+    // convert obj to array:
+    var obj = req.body;
+    var orgLinksArr = Object.keys(obj).map(function(k) { return obj[k] });
+    
+    setTimeout(function(){
+      workflow.emit('getOrgs', orgLinksArr);
+    },0);
+  });
+  
+  workflow.on('getOrgs', function(orgLinksArr) {
+    req.app.db.models.Org.find({ orgLink: { $in: orgLinksArr } }, function (err, orgs) {
       if (err) {
         return res.send(500, err).end();
       }
@@ -97,7 +107,7 @@ exports.getOrgArray = function(req, res){
     }
   });
   
-  workflow.emit('getOrgs');
+  workflow.emit('parseRequest');
   
 };
 
