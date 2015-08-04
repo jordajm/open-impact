@@ -107,7 +107,7 @@ exports.getOrgArray = function(req, res){
     async.each(orgs, function(org, callback) {
         
         var thisOrgReportIds = org.orgImpactReportIds;
-        req.app.db.models.Metric.find({'metricId': { $in: thisOrgReportIds } }, function (err, reportsList) {
+        req.app.db.models.Metric.find({ _id: { $in: thisOrgReportIds } }, function (err, reportsList) {
           if (err) {
             return res.send(500, err).end();
           }
@@ -130,7 +130,11 @@ exports.getOrgArray = function(req, res){
   workflow.on('buildOrgDataObj', function(){
     var orgDataArrLen = orgDataArr.length;
     for(var i = 0; i < orgDataArrLen; i++){
+      console.log('====== i =', i);
+      console.log('===== orgDataArr[i] = ', orgDataArr[i]);
+      console.log('====== metricsArr[i] =', metricsArr[i]);
       orgDataArr[i].trackedMetrics = metricsArr[i];
+      console.log('====== reportsArr[i] =', reportsArr[i]);
       orgDataArr[i].reports = reportsArr[i];
       console.log(' ======== orgDataArr = ', orgDataArr);
       if(i == (orgDataArrLen - 1)){
