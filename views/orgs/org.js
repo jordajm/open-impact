@@ -52,7 +52,7 @@ exports.getOrgData = function(req, res){
 
 exports.getOrgArray = function(req, res){
   var workflow = req.app.utility.workflow(req, res);
-  var orgDataObj = {};
+  var orgDataArr = [];
   
   workflow.on('parseRequest', function(){
     // TODO - use Async library instead of vanilla JS with a stupid setTimeout:
@@ -70,7 +70,7 @@ exports.getOrgArray = function(req, res){
       if (err) {
         return res.send(500, err).end();
       }
-      orgDataObj.orgData = orgs;
+      orgDataArr.push.apply(orgDataArr, orgs);
       workflow.emit('getOrgMetrics', orgs);
     });
   });
@@ -84,7 +84,7 @@ exports.getOrgArray = function(req, res){
         if (err) {
           return res.send(500, err);
         }
-        orgDataObj[i].trackedMetrics = metricsList;
+        orgDataArr[i].trackedMetrics = metricsList;
         workflow.emit('getOrgReports', orgs);
       });
     }
@@ -98,10 +98,10 @@ exports.getOrgArray = function(req, res){
         if (err) {
           return res.send(500, err);
         }
-        orgDataObj[i].reports = reportList;
+        orgDataArr[i].reports = reportList;
         if(i == (orgsLen - 1)){
-          console.log('============= orgDataObj = ', orgDataObj);
-          res.send(JSON.stringify(orgDataObj));
+          console.log('============= orgDataObj = ', orgDataArr);
+          res.send(JSON.stringify(orgDataArr));
         }
       });
     }
