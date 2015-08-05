@@ -145,19 +145,20 @@ exports.getOrgArray = function(req, res){
     
     
     
-    
+    var finalOrgArr = [];
     var orgDataArrLen = orgDataArr.length;
     for(var i = 0; i < orgDataArrLen; i++){
-      console.log('====== i =', i);
-      console.log('===== orgDataArr[i] = ', orgDataArr[i]);
-      console.log('====== metricsArr[i] =', metricsArr[i]);
-      orgDataArr[i].trackedMetrics = metricsArr[i];
-      console.log('====== reportsArr[i] =', reportsArr[i]);
-      orgDataArr[i].reports = reportsArr[i];
-      console.log(' ======== orgDataArr = ', orgDataArr);
+      var thisOrg = {
+        orgData: orgDataArr[i],
+        trackedMetrics: metricsArr[i],
+        reports: reportsArr[i]
+      };
+      console.log('======== thisOrg = ', thisOrg);
+      finalOrgArr.push(thisOrg);
       if(i == (orgDataArrLen - 1)){
         setTimeout(function(){
-          res.send(JSON.stringify(orgDataArr));
+          console.log('====== finalOrgArr', finalOrgArr);
+          res.send(JSON.stringify(finalOrgArr));
         }, 1000);
       }
     }
