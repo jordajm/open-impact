@@ -82,8 +82,8 @@ exports.updateReport = function(req, res, next){
   var reportQuery = { _id: new ObjectID(req.body._id) };
   var reportUpdate = {
     metricsData: req.body.metricsData,
-    reportTimeframe: req.body.timeframe,
-    reportYear: req.body.year,
+    reportTimeframe: req.body.reportTimeframe,
+    reportYear: req.body.reportYear,
     content: req.body.content,
   };
   var reportOptions = {};
