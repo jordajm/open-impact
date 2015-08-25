@@ -75,6 +75,27 @@ exports.createReport = function(req, res, next){
   
 };
 
+exports.updateReport = function(req, res, next){
+  var workflow = req.app.utility.workflow(req, res);
+  var ObjectID = require('mongodb').ObjectID;
+
+  var reportQuery = { _id: new ObjectID(req.body._id) };
+  var reportUpdate = {
+    metricsData: req.body.metricsData,
+    reportTimeframe: req.body.timeframe,
+    reportYear: req.body.year,
+    content: req.body.content,
+  };
+  var reportOptions = {};
+  req.app.db.models.Report.findOneAndUpdate(reportQuery, reportUpdate, reportOptions, function(err) {
+    if (err) {
+      workflow.outcome.errfor.errDetail = 'Error updating report';
+      return workflow.emit('response');
+    }
+    res.status(200).send();
+  });
+};
+
 exports.deleteReport = function(req, res, next){
   var workflow = req.app.utility.workflow(req, res);
   
