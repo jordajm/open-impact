@@ -27,13 +27,17 @@ exports.getOrgData = function(req, res){
   });
   
   workflow.on('getOrgMetrics', function(thisOrg) {
-    req.app.db.models.Metric.find({'metricId': { $in: thisOrg.orgIrisMetricIds } }, function (err, metricsList) {
-      if (err) {
-        return res.send(500, err).end();
-      }
-      orgDataObj.trackedMetrics = metricsList;
-      workflow.emit('getOrgReports', thisOrg);
-    });
+    if(thisOrg){
+      req.app.db.models.Metric.find({'metricId': { $in: thisOrg.orgIrisMetricIds } }, function (err, metricsList) {
+        if (err) {
+          return res.send(500, err).end();
+        }
+        orgDataObj.trackedMetrics = metricsList;
+        workflow.emit('getOrgReports', thisOrg);
+      });
+    }else{
+      res.send(500, 'Missing parameters').end();
+    }
   });
   
   workflow.on('getOrgReports', function(thisOrg) {
